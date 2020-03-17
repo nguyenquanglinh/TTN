@@ -16,5 +16,7 @@ namespace QuanLyBanHangTapHoa
         {
             InitializeComponent();
         }
+
+       
     }
 }
