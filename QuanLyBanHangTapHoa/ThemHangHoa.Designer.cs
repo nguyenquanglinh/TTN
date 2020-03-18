@@ -48,16 +48,16 @@
             // 
             // txtTenHangHoa
             // 
-            this.txtTenHangHoa.Location = new System.Drawing.Point(135, 27);
+            this.txtTenHangHoa.Location = new System.Drawing.Point(132, 27);
             this.txtTenHangHoa.Name = "txtTenHangHoa";
-            this.txtTenHangHoa.Size = new System.Drawing.Size(137, 20);
+            this.txtTenHangHoa.Size = new System.Drawing.Size(140, 20);
             this.txtTenHangHoa.TabIndex = 1;
             // 
             // txtMaHH
             // 
-            this.txtMaHH.Location = new System.Drawing.Point(135, 92);
+            this.txtMaHH.Location = new System.Drawing.Point(132, 92);
             this.txtMaHH.Name = "txtMaHH";
-            this.txtMaHH.Size = new System.Drawing.Size(137, 20);
+            this.txtMaHH.Size = new System.Drawing.Size(140, 20);
             this.txtMaHH.TabIndex = 3;
             // 
             // label2
@@ -71,9 +71,9 @@
             // 
             // txtMaLoai
             // 
-            this.txtMaLoai.Location = new System.Drawing.Point(135, 171);
+            this.txtMaLoai.Location = new System.Drawing.Point(132, 171);
             this.txtMaLoai.Name = "txtMaLoai";
-            this.txtMaLoai.Size = new System.Drawing.Size(137, 20);
+            this.txtMaLoai.Size = new System.Drawing.Size(140, 20);
             this.txtMaLoai.TabIndex = 5;
             // 
             // label3
@@ -87,9 +87,9 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(111, 260);
+            this.btnThem.Location = new System.Drawing.Point(108, 260);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(78, 23);
             this.btnThem.TabIndex = 6;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -113,9 +113,7 @@
             this.PerformLayout();
 
         }
-
         #endregion
-
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTenHangHoa;
         private System.Windows.Forms.TextBox txtMaHH;

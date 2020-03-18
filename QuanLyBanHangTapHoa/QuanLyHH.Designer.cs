@@ -50,6 +50,7 @@
             this.btnLoaiHH.TabIndex = 1;
             this.btnLoaiHH.Text = "Quản lý loại hàng hóa";
             this.btnLoaiHH.UseVisualStyleBackColor = true;
+            this.btnLoaiHH.Click += new System.EventHandler(this.btnLoaiHH_Click);
             // 
             // QuanLyHH
             // 
