@@ -73,6 +73,12 @@
     <Compile Include="QuanLyHH.Designer.cs">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuaHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaHangHoa.Designer.cs">
+      <DependentUpon>SuaHangHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyHH.resx">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaHangHoa.resx">
+      <DependentUpon>SuaHangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemHangHoa.resx">
       <DependentUpon>ThemHangHoa.cs</DependentUpon>

@@ -9,3 +9,6 @@ C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.pdb
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QuanLyHH.resources
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.DangNhap.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.HangHoaMng.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaHangHoa.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources

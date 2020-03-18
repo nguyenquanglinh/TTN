@@ -10,7 +10,7 @@ namespace QuanLyBanHangTapHoa
     public class HangHoa
     {
         public HangHoa() { }
-        public HangHoa(string tenHH,string maHH,string maLoai) : this()
+        public HangHoa(string tenHH, string maHH, string maLoai) : this()
         {
             this.TenHH = tenHH;
             this.MaHH = maHH;
@@ -24,9 +24,9 @@ namespace QuanLyBanHangTapHoa
         {
             if (string.IsNullOrEmpty(this.TenHH))
             {
-                if (MaHH != 0)
+                if (string.IsNullOrEmpty(MaHH))
                 {
-                    if (MaLoai != 0)
+                    if (string.IsNullOrEmpty(MaLoai))
                         return true;
                     else
                         MessageBox.Show("Mã loại hàng hóa khác rỗng", "Nhắc nhở", MessageBoxButtons.OK);
@@ -35,16 +35,16 @@ namespace QuanLyBanHangTapHoa
                     MessageBox.Show("Mã hàng hóa khác rỗng", "Nhắc nhở", MessageBoxButtons.OK);
             }
             else
-                MessageBox.Show("Tên hàng hóa khác rỗng","Nhắc nhở",MessageBoxButtons.OK);
+                MessageBox.Show("Tên hàng hóa khác rỗng", "Nhắc nhở", MessageBoxButtons.OK);
             return false;
         }
 
         public override string ToString()
         {
             return "Thông tin hàng hóa\n " +
-                "Tên hàng hóa: "+TenHH+
-                "\n Mã hàng hóa: "+MaHH.ToString()+
-                "\nMã loại: "+MaLoai.ToString();
+                "Tên hàng hóa: " + TenHH +
+                "\n Mã hàng hóa: " + MaHH.ToString() +
+                "\nMã loại: " + MaLoai.ToString();
         }
     }
 }
