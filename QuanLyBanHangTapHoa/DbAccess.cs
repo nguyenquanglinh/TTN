@@ -29,22 +29,21 @@ namespace QuanLyBanHangTapHoa
 
             }
         }
-        //public void GetDataTableCanHo(DataGridView dataGridView1)
-        //{
-        //    try
-        //    {
-        //        string query = "select * from CanHo";
-        //        SqlDataAdapter dataadapter = new SqlDataAdapter(query, connection);
-        //        DataSet ds = new DataSet();
-        //        dataadapter.Fill(ds, "data");
-        //        dataGridView1.DataSource = ds;
-        //        dataGridView1.DataMember = "data";
-
-        //    }
-        //    catch
-        //    {
-        //    }
-        //}
+        public void GetDataTableHangHoa(DataGridView dataGridView1)
+        {
+            try
+            {
+                string query = "select * from HangHoa";
+                SqlDataAdapter dataadapter = new SqlDataAdapter(query, connection);
+                DataSet ds = new DataSet();
+                dataadapter.Fill(ds, "data");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "data";
+            }
+            catch
+            {
+            }
+        }
 
         public DataTable readDatathroughtAdapter(string query)
         {

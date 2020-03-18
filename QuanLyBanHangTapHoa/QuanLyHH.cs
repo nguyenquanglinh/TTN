@@ -25,10 +25,8 @@ namespace QuanLyBanHangTapHoa
 
         private void btnQuanLyHangHoa_Click(object sender, EventArgs e)
         {
-            var themHH = new ThemHangHoa();
-            themHH.ShowDialog();
-            if(themHH.hh.CheckHHNotNull())
-                DbAccess.
+            var hh = new HangHoaMng();
+            hh.Show();
         }
     }
 }

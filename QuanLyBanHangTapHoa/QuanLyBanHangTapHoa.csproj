@@ -58,6 +58,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HangHoa.cs" />
+    <Compile Include="HangHoaMng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HangHoaMng.Designer.cs">
+      <DependentUpon>HangHoaMng.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanLyHH.cs">
@@ -66,12 +73,21 @@
     <Compile Include="QuanLyHH.Designer.cs">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThemHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemHangHoa.Designer.cs">
+      <DependentUpon>ThemHangHoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HangHoaMng.resx">
+      <DependentUpon>HangHoaMng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +100,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyHH.resx">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemHangHoa.resx">
+      <DependentUpon>ThemHangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

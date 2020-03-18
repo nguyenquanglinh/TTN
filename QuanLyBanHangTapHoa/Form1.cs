@@ -21,7 +21,6 @@ namespace QuanLyBanHangTapHoa
                 var x = new DangNhap(dbAccess);
                 x.ShowDialog();
                 this.User = x.GetUser;
-
                 ThongTin.Text = User.ToString();
             }
             catch
