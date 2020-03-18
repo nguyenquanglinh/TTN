@@ -16,5 +16,19 @@ namespace QuanLyBanHangTapHoa
         {
             InitializeComponent();
         }
+        public QuanLyHH(DbAccess db)
+        {
+            this.Db = db;
+        }
+
+        public DbAccess Db { get; set; }
+
+        private void btnQuanLyHangHoa_Click(object sender, EventArgs e)
+        {
+            var themHH = new ThemHangHoa();
+            themHH.ShowDialog();
+            if(themHH.hh.CheckHHNotNull())
+                DbAccess.
+        }
     }
 }

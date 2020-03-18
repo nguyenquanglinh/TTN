@@ -40,6 +40,7 @@
             this.btnQuanLyHangHoa.TabIndex = 0;
             this.btnQuanLyHangHoa.Text = "Quản lý hàng hóa";
             this.btnQuanLyHangHoa.UseVisualStyleBackColor = true;
+            this.btnQuanLyHangHoa.Click += new System.EventHandler(this.btnQuanLyHangHoa_Click);
             // 
             // btnLoaiHH
             // 
