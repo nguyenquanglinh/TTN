@@ -1,0 +1,11 @@
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.exe.config
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.exe
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.pdb
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csprojAssemblyReference.cache
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.Form1.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.Properties.Resources.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csproj.GenerateResource.cache
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.exe
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.pdb
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QuanLyHH.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.DangNhap.resources

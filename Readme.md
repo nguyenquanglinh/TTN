@@ -24,3 +24,7 @@ Phân công công việc:
 	1.Tạo project:Nguyễn Quang Linh
 	2.Tạo csdl:Nguyễn Quang Linh
 	3.Tạo git,add thành viên :Nguyễn Quang Linh
+	4.Quản lý hàng hóa:Nguyễn Quang Linh
+	5.Quản lý hóa đơn nhập:Chu Tiến Anh
+	6.Quản lý hóa đơn xuất:Hà Lâm Giang
+	7.Quản lý kho,nhân viên:Đăng Tùng
