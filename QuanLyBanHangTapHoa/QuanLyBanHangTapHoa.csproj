@@ -65,6 +65,13 @@
     <Compile Include="HangHoaMng.Designer.cs">
       <DependentUpon>HangHoaMng.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoaiHangHoaMng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiHangHoaMng.Designer.cs">
+      <DependentUpon>LoaiHangHoaMng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiHH.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuanLyHH.cs">
@@ -79,11 +86,23 @@
     <Compile Include="SuaHangHoa.Designer.cs">
       <DependentUpon>SuaHangHoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuaLoaiHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaLoaiHH.Designer.cs">
+      <DependentUpon>SuaLoaiHH.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ThemHangHoa.Designer.cs">
       <DependentUpon>ThemHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemLoaiHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemLoaiHH.Designer.cs">
+      <DependentUpon>ThemLoaiHH.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
     <EmbeddedResource Include="DangNhap.resx">
@@ -94,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HangHoaMng.resx">
       <DependentUpon>HangHoaMng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiHangHoaMng.resx">
+      <DependentUpon>LoaiHangHoaMng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,8 +132,14 @@
     <EmbeddedResource Include="SuaHangHoa.resx">
       <DependentUpon>SuaHangHoa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SuaLoaiHH.resx">
+      <DependentUpon>SuaLoaiHH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThemHangHoa.resx">
       <DependentUpon>ThemHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemLoaiHH.resx">
+      <DependentUpon>ThemLoaiHH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

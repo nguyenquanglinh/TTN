@@ -64,7 +64,7 @@ namespace QuanLyBanHangTapHoa
             {
                 if (s != null)
                 {
-                    if (Db.XoaHH(s.MaLoai)) MessageBox.Show("Xóa thành công");
+                    if (Db.XoaLoaiHH(s.MaLoai)) MessageBox.Show("Xóa thành công");
                     else MessageBox.Show("Không thể xóa thông tin vui lòng kiểm tra lại");
                 }
                 else
@@ -82,9 +82,8 @@ namespace QuanLyBanHangTapHoa
         {
             try
             {
-                s = new HangHoa(dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString(),
-                    dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString(),
-                    dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString());
+                s = new LoaiHH(dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString(),
+                    dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString());
             }
             catch
             {
