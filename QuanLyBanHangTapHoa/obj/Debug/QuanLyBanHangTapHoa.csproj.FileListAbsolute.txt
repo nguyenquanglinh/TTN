@@ -12,3 +12,6 @@ C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.HangHoaMng.resources
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaHangHoa.resources
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.LoaiHangHoaMng.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaLoaiHH.resources
+C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemLoaiHH.resources
