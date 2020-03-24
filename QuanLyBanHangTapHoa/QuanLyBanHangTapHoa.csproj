@@ -74,6 +74,31 @@
     <Compile Include="LoaiHH.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNV\FormQLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV\FormQLNV.Designer.cs">
+      <DependentUpon>FormQLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNV\FormThemNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV\FormThemNV.Designer.cs">
+      <DependentUpon>FormThemNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNV\FormXoaNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV\FormXoaNV.Designer.cs">
+      <DependentUpon>FormXoaNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNV\FormSuaNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV\FormSuaNV.Designer.cs">
+      <DependentUpon>FormSuaNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNV\NhanVien.cs" />
     <Compile Include="QuanLyHH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +151,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLNV\FormQLNV.resx">
+      <DependentUpon>FormQLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNV\FormSuaNV.resx">
+      <DependentUpon>FormSuaNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNV\FormThemNV.resx">
+      <DependentUpon>FormThemNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNV\FormXoaNV.resx">
+      <DependentUpon>FormXoaNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyHH.resx">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
     </EmbeddedResource>

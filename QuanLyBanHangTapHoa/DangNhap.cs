@@ -50,5 +50,10 @@ namespace QuanLyBanHangTapHoa
                 MessageBox.Show("Đăng nhập không thành công");
             }
         }
+
+        private void btnDangNhap_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
