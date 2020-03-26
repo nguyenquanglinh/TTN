@@ -27,4 +27,4 @@ Phân công công việc:
 	4.Quản lý hàng hóa:Nguyễn Quang Linh
 	5.Quản lý hóa đơn nhập:Chu Tiến Anh
 	6.Quản lý hóa đơn xuất:Hà Lâm Giang
-	7.Quản lý kho,nhân viên:Đăng Tùng
+	7.Quản lý nhân viên:Đàm Viết Tùng

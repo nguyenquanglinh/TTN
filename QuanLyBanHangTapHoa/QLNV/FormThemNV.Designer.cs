@@ -55,7 +55,7 @@
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(354, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(335, 51);
+            this.label1.Size = new System.Drawing.Size(336, 49);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thêm Nhân Viên";
             // 
@@ -207,6 +207,7 @@
             this.btnQuayLai.TabIndex = 16;
             this.btnQuayLai.Text = "Quay Lại";
             this.btnQuayLai.UseVisualStyleBackColor = true;
+            this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
             // 
             // btnThoat
             // 
@@ -218,6 +219,7 @@
             this.btnThoat.TabIndex = 17;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // FormThemNV
             // 

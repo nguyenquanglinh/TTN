@@ -44,7 +44,7 @@
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(335, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(392, 51);
+            this.label1.Size = new System.Drawing.Size(394, 49);
             this.label1.TabIndex = 0;
             this.label1.Text = "Quản Lý Nhân Viên";
             // 
@@ -92,6 +92,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1065, 310);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label2
             // 

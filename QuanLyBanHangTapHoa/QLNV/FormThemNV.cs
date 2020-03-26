@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,17 @@ namespace QuanLyBanHangTapHoa.QLNV
         {
             InitializeComponent();
         }
+        private void KetNoi()
+        {
+            string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
+            SqlConnection conn = new SqlConnection(cs);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("select * from NhanVien", conn);
+            SqlDataAdapter com = new SqlDataAdapter(cmd);
+            DataTable datatable = new DataTable();
+            com.Fill(datatable);
+            
+        }
         public void ThemNV()
         {
             nv.TenNV = txtTenNV.Text;
@@ -30,18 +42,45 @@ namespace QuanLyBanHangTapHoa.QLNV
 
         }
 
+        string them;
         private void btnThem_Click(object sender, EventArgs e)
         {
-            ThemNV();
-            if (nv.CheckNVNotNull())
+            try
             {
-                //thao tác thêm dữ liệu vào database
+                ThemNV();
+                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
+                SqlConnection conn = new SqlConnection(cs);
+                conn.Open();
+                them="INSERT INTO NhanVien (MaNV,TenNV,QueQuan,NamSinh,ChucVu,LuongThang,GioiTinh) VALUES('"+nv.MaNV+ "','" + nv.TenNV + "','" + nv.Quequan + "','" + nv.Namsinh + "','" + nv.Chucvu + "','" + nv.Luongthang + "','" + nv.Gioitinh + "')";
+                 
+                SqlCommand cmdthem = new SqlCommand(them, conn);
+                cmdthem.ExecuteNonQuery();
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi ! không thêm được");
 
             }
-            else
+            finally
             {
-                MessageBox.Show("vui lòng điền đầy đủ thông tin !");
+                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
+                SqlConnection conn = new SqlConnection(cs);
+                MessageBox.Show("thêm thành công");
+                conn.Close();
             }
+           
+        }
+
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            FormQLNV f = new FormQLNV();
+            f.Show();
+            this.Hide();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

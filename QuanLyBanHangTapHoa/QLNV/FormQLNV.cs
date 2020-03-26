@@ -55,8 +55,13 @@ namespace QuanLyBanHangTapHoa.QLNV
             }
             catch
             {
-              
+                MessageBox.Show("Lỗi");
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
