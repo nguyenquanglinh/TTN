@@ -12,3 +12,17 @@ C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.HangHoaMng.resources
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaHangHoa.resources
 C:\Users\thutte\Desktop\ThucTapNhom\QuanLyBanHangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.exe.config
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.exe
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.pdb
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csprojResolveAssemblyReference.cache
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.DangNhap.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.Form1.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.HangHoaMng.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.Properties.Resources.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QuanLyHH.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaHangHoa.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csproj.GenerateResource.Cache
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.exe
+C:\Users\nbhoa\Source\Repos\TTNQuanLyBanhangTapHoa\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.pdb

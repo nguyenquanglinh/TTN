@@ -31,8 +31,8 @@ namespace QuanLyBanHangTapHoa
 
         private void btnLoaiHH_Click(object sender, EventArgs e)
         {
-            var lhh = new LoaiHangHoaMng();
-            lhh.Show();
+            //var lhh = new LoaiHangHoaMng();
+            //lhh.Show();
         }
     }
 }

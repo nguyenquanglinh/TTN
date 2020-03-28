@@ -161,78 +161,78 @@ namespace QuanLyBanHangTapHoa
             {
             }
         }
-        public bool ThemLoaiHH(LoaiHH ch)
-        {
-            if (ch == null) return false;
-            try
-            {
-                //MaHH], [TenHH], [MaLoai
-                string sql = "insert into " + "LoaiHH(MaLoai, TenLoai,) "
-            + "values(@MaHH, @TenHH, @MaLoai)";
-                using (SqlCommand insertCommand = new SqlCommand(sql, connection))
-                {
-                    insertCommand.Parameters.AddWithValue("@MaLoai", ch.MaLoai);
-                    insertCommand.Parameters.AddWithValue("@TenLoai", ch.TenLoai);
-                    if (insertCommand.ExecuteNonQuery() == 1)
-                    {
-                        return true;
-                    }
-                }
-            }
-            catch
-            {
-                MessageBox.Show("lỗi phát sinh khi thêm loại hàng hóa.\nThử lại", "Cảnh báo", MessageBoxButtons.OK);
-            }
-            return false;
+        //public bool ThemLoaiHH(LoaiHH ch)
+        //{
+        //    if (ch == null) return false;
+        //    try
+        //    {
+        //        //MaHH], [TenHH], [MaLoai
+        //        string sql = "insert into " + "LoaiHH(MaLoai, TenLoai,) "
+        //    + "values(@MaHH, @TenHH, @MaLoai)";
+        //        using (SqlCommand insertCommand = new SqlCommand(sql, connection))
+        //        {
+        //            insertCommand.Parameters.AddWithValue("@MaLoai", ch.MaLoai);
+        //            insertCommand.Parameters.AddWithValue("@TenLoai", ch.TenLoai);
+        //            if (insertCommand.ExecuteNonQuery() == 1)
+        //            {
+        //                return true;
+        //            }
+        //        }
+        //    }
+        //    catch
+        //    {
+        //        MessageBox.Show("lỗi phát sinh khi thêm loại hàng hóa.\nThử lại", "Cảnh báo", MessageBoxButtons.OK);
+        //    }
+        //    return false;
 
-        }
-        public bool SuaLoaiHH(LoaiHH ch, string id)
-        {
-            if (ch == null) return false;
-            try
-            {
-                //var s = Convert.ToDateTime(ch.NgayVao);
-                //var x = s.Day + "/" + s.Month + "/" + s.Year;
-                //var r = Convert.ToDateTime(ch.NamSinh);
-                //var y = r.Day + "/" + r.Month + "/" + r.Year;
-                var sql = "update LoaiHH set MaLoai ='" +
-                      @ch.MaLoai +
-                      "', TenHH='" + @ch.TenLoai +
-                      "' where soCMNDChuHo='" + id + "'";
-                using (SqlCommand updateCommand = new SqlCommand(sql, connection))
-                {
-                    if (updateCommand.ExecuteNonQuery() == 1)
-                    {
-                        return true;
-                    }
-                    return false;
-                }
-            }
-            catch
-            {
-                return false;
-            }
+        //}
+        //public bool SuaLoaiHH(LoaiHH ch, string id)
+        //{
+        //    if (ch == null) return false;
+        //    try
+        //    {
+        //        //var s = Convert.ToDateTime(ch.NgayVao);
+        //        //var x = s.Day + "/" + s.Month + "/" + s.Year;
+        //        //var r = Convert.ToDateTime(ch.NamSinh);
+        //        //var y = r.Day + "/" + r.Month + "/" + r.Year;
+        //        var sql = "update LoaiHH set MaLoai ='" +
+        //              @ch.MaLoai +
+        //              "', TenHH='" + @ch.TenLoai +
+        //              "' where soCMNDChuHo='" + id + "'";
+        //        using (SqlCommand updateCommand = new SqlCommand(sql, connection))
+        //        {
+        //            if (updateCommand.ExecuteNonQuery() == 1)
+        //            {
+        //                return true;
+        //            }
+        //            return false;
+        //        }
+        //    }
+        //    catch
+        //    {
+        //        return false;
+        //    }
 
 
-        }
-        public bool XoaLoaiHH(string cmnd)
-        {
-            try
-            {
-                String sql = "delete LoaiHH where MaLoai='" + cmnd + "'";
-                using (SqlCommand insertCommand = new SqlCommand(sql, connection))
-                {
-                    if (insertCommand.ExecuteNonQuery() == 1)
-                    {
-                        return true;
-                    }
-                }
-            }
-            catch
-            {
+        //}
+        //public bool XoaLoaiHH(string cmnd)
+        //{
+        //    try
+        //    {
+        //        String sql = "delete LoaiHH where MaLoai='" + cmnd + "'";
+        //        using (SqlCommand insertCommand = new SqlCommand(sql, connection))
+        //        {
+        //            if (insertCommand.ExecuteNonQuery() == 1)
+        //            {
+        //                return true;
+        //            }
+        //        }
+        //    }
+        //    catch
+        //    {
 
-            }
-            return false;
-        }
+        //    }
+        //    return false;
+        //}
     }
 }
