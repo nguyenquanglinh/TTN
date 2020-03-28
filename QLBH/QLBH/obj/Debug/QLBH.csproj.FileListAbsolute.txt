@@ -1,0 +1,22 @@
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.FormHoaDonNhap.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.FormPhieuNhap.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\New folder\QLBH\QLBH\obj\Debug\QLBH.FormNhaCC.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.FormHoaDonNhap.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.FormNhaCC.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.FormPhieuNhap.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
