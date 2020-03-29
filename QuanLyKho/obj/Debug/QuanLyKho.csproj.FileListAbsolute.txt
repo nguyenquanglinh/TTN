@@ -7,3 +7,5 @@ D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resour
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.exe
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.FormMain.resources
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang.FormXuatHang.resources
