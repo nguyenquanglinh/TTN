@@ -1,0 +1,9 @@
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.FormLogin.resources
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.pdb
