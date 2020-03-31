@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyKho.XuatHang_QLphieuxuat_;
+using QuanLyKho.XuatHang;
 
 namespace QuanLyKho
 {
@@ -20,6 +22,13 @@ namespace QuanLyKho
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnXuatHang_Click(object sender, EventArgs e)
+        {
+            FormXuatHang f = new FormXuatHang();
+            f.Show();
+            this.Hide();
         }
     }
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectionString.cs" />
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +103,9 @@
     <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.resx">
       <DependentUpon>FormQLphieuxuat.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormSuaphieuxuat.resx">
+      <DependentUpon>FormSuaphieuxuat.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Help\" />
+    <Folder Include="NhaCungCap\" />
     <Folder Include="NhapHang%28QLphieunhap%29\" />
     <Folder Include="QLHangHoa\" />
     <Folder Include="ThongKe\" />

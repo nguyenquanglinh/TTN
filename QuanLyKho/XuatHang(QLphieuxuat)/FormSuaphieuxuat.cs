@@ -16,5 +16,10 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
         {
             InitializeComponent();
         }
+
+        private void FormSuaphieuxuat_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

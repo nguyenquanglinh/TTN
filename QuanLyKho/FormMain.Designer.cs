@@ -36,6 +36,7 @@
             this.btnThongKe = new System.Windows.Forms.Button();
             this.btnXuatHang = new System.Windows.Forms.Button();
             this.btnQLHanghoa = new System.Windows.Forms.Button();
+            this.btnNCC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -115,6 +116,7 @@
             this.btnXuatHang.TabIndex = 6;
             this.btnXuatHang.Text = "Xuất Hàng";
             this.btnXuatHang.UseVisualStyleBackColor = true;
+            this.btnXuatHang.Click += new System.EventHandler(this.btnXuatHang_Click);
             // 
             // btnQLHanghoa
             // 
@@ -127,11 +129,23 @@
             this.btnQLHanghoa.Text = "QL Hàng Hóa";
             this.btnQLHanghoa.UseVisualStyleBackColor = true;
             // 
+            // btnNCC
+            // 
+            this.btnNCC.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNCC.ForeColor = System.Drawing.Color.DarkOrange;
+            this.btnNCC.Location = new System.Drawing.Point(913, 129);
+            this.btnNCC.Name = "btnNCC";
+            this.btnNCC.Size = new System.Drawing.Size(172, 101);
+            this.btnNCC.TabIndex = 8;
+            this.btnNCC.Text = "Nhà Cung Cấp";
+            this.btnNCC.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 539);
+            this.Controls.Add(this.btnNCC);
             this.Controls.Add(this.btnQLHanghoa);
             this.Controls.Add(this.btnXuatHang);
             this.Controls.Add(this.btnThongKe);
@@ -158,5 +172,6 @@
         private System.Windows.Forms.Button btnThongKe;
         private System.Windows.Forms.Button btnXuatHang;
         private System.Windows.Forms.Button btnQLHanghoa;
+        private System.Windows.Forms.Button btnNCC;
     }
 }
