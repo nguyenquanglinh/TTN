@@ -36,7 +36,10 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnTroLai = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +59,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(2, 320);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1161, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(463, 343);
             this.dataGridView1.TabIndex = 1;
             // 
             // label2
@@ -79,6 +82,7 @@
             this.btnThem.TabIndex = 4;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnXoa
             // 
@@ -125,11 +129,32 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(471, 320);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(701, 343);
+            this.dataGridView2.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(487, 292);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(272, 25);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Danh sách chi tiết phiếu xuất :";
+            // 
             // FormXuatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1162, 663);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnTroLai);
             this.Controls.Add(this.btnSua);
@@ -141,7 +166,9 @@
             this.Name = "FormXuatHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormXuatHang";
+            this.Load += new System.EventHandler(this.FormXuatHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +184,7 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnTroLai;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label3;
     }
 }
