@@ -21,8 +21,7 @@ namespace QuanLyBanHangTapHoa.QLNV
         }
         private void KetNoi()
         {
-            string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-            SqlConnection conn = new SqlConnection(cs);
+            SqlConnection conn = new SqlConnection(DbAccess.strConnString);
             conn.Open();
             SqlCommand cmd = new SqlCommand("select * from NhanVien", conn);
             SqlDataAdapter com = new SqlDataAdapter(cmd);
@@ -48,8 +47,7 @@ namespace QuanLyBanHangTapHoa.QLNV
             try
             {
                 ThemNV();
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 conn.Open();
                 them="INSERT INTO NhanVien (MaNV,TenNV,QueQuan,NamSinh,ChucVu,LuongThang,GioiTinh) VALUES('"+nv.MaNV+ "','" + nv.TenNV + "','" + nv.Quequan + "','" + nv.Namsinh + "','" + nv.Chucvu + "','" + nv.Luongthang + "','" + nv.Gioitinh + "')";
                  
@@ -63,8 +61,7 @@ namespace QuanLyBanHangTapHoa.QLNV
             }
             finally
             {
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 MessageBox.Show("thêm thành công");
                 conn.Close();
             }

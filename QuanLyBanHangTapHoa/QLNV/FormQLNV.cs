@@ -41,8 +41,8 @@ namespace QuanLyBanHangTapHoa.QLNV
 
         private void FormQLNV_Load(object sender, EventArgs e)
         {
-            string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;"; 
-            SqlConnection conn = new SqlConnection(cs);
+           
+            SqlConnection conn = new SqlConnection(DbAccess.strConnString);
             SqlCommand cmd = new SqlCommand("select * from NhanVien", conn);
             try
             {

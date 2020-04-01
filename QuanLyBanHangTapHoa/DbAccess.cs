@@ -12,7 +12,7 @@ namespace QuanLyBanHangTapHoa
     public class DbAccess
     {
         SqlConnection connection = new SqlConnection();
-        string strConnString = "Data Source =" + "DESKTOP-VLM31NH\\SQLEXPRESS ;Database = QuanLyBanHangTapHoa; Integrated Security=SSPI;";
+        public static string strConnString = "Data Source =" + "DESKTOP-VLM31NH\\SQLEXPRESS ;Database = QuanLyBanHangTapHoa; Integrated Security=SSPI;";
         #region hanghoa
         public void createConn()
         {

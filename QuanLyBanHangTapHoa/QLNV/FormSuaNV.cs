@@ -22,8 +22,7 @@ namespace QuanLyBanHangTapHoa.QLNV
         {
             try
             {
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 conn.Open();
                 sua = "update NhanVien set MaNV= '" + txtMaNV.Text + "', TenNV='"+txtTenNV.Text+"',QueQuan='"+txtQueQuan.Text+"',NamSinh='"+txtNamSinh.Text+"',ChucVu='"+txtChucVu.Text+"',LuongThang='"+txtLuongThang.Text+"',GioiTinh='"+txtGioiTinh.Text+"' where MaNV='"+txtMaNV.Text+"'";
                 SqlCommand cmd = new SqlCommand(sua, conn);
@@ -37,8 +36,7 @@ namespace QuanLyBanHangTapHoa.QLNV
             }
             finally
             {
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 conn.Close();
                 MessageBox.Show("sửa thành công");
             }

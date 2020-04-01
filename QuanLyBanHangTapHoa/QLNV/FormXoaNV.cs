@@ -30,8 +30,7 @@ namespace QuanLyBanHangTapHoa.QLNV
         {
             try
             {
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 conn.Open();
                 xoakho = "delete Kho where MaNV='" + txtMaNVXoa.Text + "'";
                 xoaphieunhap = "delete PhieuNhap where MaNV='" + txtMaNVXoa.Text + "'";
@@ -54,8 +53,7 @@ namespace QuanLyBanHangTapHoa.QLNV
             }
             finally
             {
-                string cs = "data source =DESKTOP-VLM31NH\\SQLEXPRESS; database=QuanLyBanHangTapHoa;integrated security= SSPI;";
-                SqlConnection conn = new SqlConnection(cs);
+                SqlConnection conn = new SqlConnection(DbAccess.strConnString);
                 conn.Close();
                 MessageBox.Show("xóa thành công");
 
