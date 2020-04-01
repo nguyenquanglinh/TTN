@@ -11,3 +11,4 @@ D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.FormMain.resource
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang.FormXuatHang.resources
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormSuaphieuxuat.resources
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormThemphieuxuat.resources
+D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormXoaphieuxuat.resources

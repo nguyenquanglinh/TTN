@@ -58,7 +58,7 @@
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(475, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 51);
+            this.label1.Size = new System.Drawing.Size(349, 49);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thêm Phiếu Xuất";
             // 

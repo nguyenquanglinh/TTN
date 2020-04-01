@@ -109,6 +109,9 @@
     <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormThemphieuxuat.resx">
       <DependentUpon>FormThemphieuxuat.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormXoaphieuxuat.resx">
+      <DependentUpon>FormXoaphieuxuat.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

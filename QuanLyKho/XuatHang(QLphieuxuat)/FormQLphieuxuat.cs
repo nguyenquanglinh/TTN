@@ -69,5 +69,26 @@ namespace QuanLyKho.XuatHang
             f.Show();
             this.Hide();
         }
+
+        private void btnTroLai_Click(object sender, EventArgs e)
+        {
+            FormMain f = new FormMain();
+            f.Show();
+            this.Hide();
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            FormXoaphieuxuat f = new FormXoaphieuxuat();
+            this.Hide();
+            f.Show();
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            FormSuaphieuxuat f = new FormSuaphieuxuat();
+            f.Show();
+            this.Hide();
+        }
     }
 }
