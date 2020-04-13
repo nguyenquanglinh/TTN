@@ -52,10 +52,9 @@
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnThoat.Location = new System.Drawing.Point(355, 384);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThoat.Location = new System.Drawing.Point(266, 312);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(101, 90);
+            this.btnThoat.Size = new System.Drawing.Size(76, 73);
             this.btnThoat.TabIndex = 43;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -72,10 +71,9 @@
             this.btnDangnhap.ForeColor = System.Drawing.Color.Black;
             this.btnDangnhap.Image = ((System.Drawing.Image)(resources.GetObject("btnDangnhap.Image")));
             this.btnDangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDangnhap.Location = new System.Drawing.Point(539, 384);
-            this.btnDangnhap.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDangnhap.Location = new System.Drawing.Point(404, 312);
             this.btnDangnhap.Name = "btnDangnhap";
-            this.btnDangnhap.Size = new System.Drawing.Size(123, 90);
+            this.btnDangnhap.Size = new System.Drawing.Size(92, 73);
             this.btnDangnhap.TabIndex = 42;
             this.btnDangnhap.Text = "Đăng nhập";
             this.btnDangnhap.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -86,29 +84,30 @@
             // txtacc
             // 
             this.txtacc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtacc.Location = new System.Drawing.Point(355, 167);
-            this.txtacc.Margin = new System.Windows.Forms.Padding(4);
+            this.txtacc.Location = new System.Drawing.Point(266, 136);
             this.txtacc.Name = "txtacc";
-            this.txtacc.Size = new System.Drawing.Size(307, 26);
+            this.txtacc.Size = new System.Drawing.Size(231, 23);
             this.txtacc.TabIndex = 41;
+            this.txtacc.Text = "admin";
             // 
             // txtpass
             // 
             this.txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtpass.Location = new System.Drawing.Point(355, 257);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtpass.Location = new System.Drawing.Point(266, 209);
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(307, 26);
+            this.txtpass.Size = new System.Drawing.Size(231, 23);
             this.txtpass.TabIndex = 40;
+            this.txtpass.Text = "1";
             // 
             // ckcHienPass
             // 
             this.ckcHienPass.AutoSize = true;
             this.ckcHienPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckcHienPass.ForeColor = System.Drawing.Color.Black;
-            this.ckcHienPass.Location = new System.Drawing.Point(523, 341);
+            this.ckcHienPass.Location = new System.Drawing.Point(392, 277);
+            this.ckcHienPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ckcHienPass.Name = "ckcHienPass";
-            this.ckcHienPass.Size = new System.Drawing.Size(139, 24);
+            this.ckcHienPass.Size = new System.Drawing.Size(118, 21);
             this.ckcHienPass.TabIndex = 39;
             this.ckcHienPass.Text = "Hiện mật khẩu";
             this.ckcHienPass.UseVisualStyleBackColor = true;
@@ -119,9 +118,10 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.Black;
-            this.checkBox1.Location = new System.Drawing.Point(355, 341);
+            this.checkBox1.Location = new System.Drawing.Point(266, 277);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(89, 24);
+            this.checkBox1.Size = new System.Drawing.Size(77, 21);
             this.checkBox1.TabIndex = 38;
             this.checkBox1.Text = "Ghi nhớ";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -131,9 +131,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(190, 253);
+            this.label2.Location = new System.Drawing.Point(142, 206);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 29);
+            this.label2.Size = new System.Drawing.Size(100, 24);
             this.label2.TabIndex = 37;
             this.label2.Text = "Password";
             // 
@@ -142,9 +143,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(190, 167);
+            this.label1.Location = new System.Drawing.Point(142, 136);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 29);
+            this.label1.Size = new System.Drawing.Size(59, 24);
             this.label1.TabIndex = 36;
             this.label1.Text = "User ";
             // 
@@ -153,17 +155,18 @@
             this.lb.AutoSize = true;
             this.lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb.ForeColor = System.Drawing.Color.DarkRed;
-            this.lb.Location = new System.Drawing.Point(307, 69);
+            this.lb.Location = new System.Drawing.Point(230, 56);
+            this.lb.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb.Name = "lb";
-            this.lb.Size = new System.Drawing.Size(374, 38);
+            this.lb.Size = new System.Drawing.Size(307, 31);
             this.lb.TabIndex = 35;
             this.lb.Text = "Phần Mềm Quản Lý Kho";
             // 
             // FormLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 569);
+            this.ClientSize = new System.Drawing.Size(759, 462);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangnhap);
             this.Controls.Add(this.txtacc);
@@ -173,6 +176,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lb);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
