@@ -45,33 +45,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DangNhap.cs">
+    <Compile Include="QLHH-LHH\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DangNhap.Designer.cs">
+    <Compile Include="QLHH-LHH\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="DbAccess.cs" />
+    <Compile Include="QLHH-LHH\DbAccess.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HangHoa.cs" />
-    <Compile Include="HangHoaMng.cs">
+    <Compile Include="QLHH-LHH\HangHoa.cs" />
+    <Compile Include="QLHH-LHH\HangHoaMng.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HangHoaMng.Designer.cs">
+    <Compile Include="QLHH-LHH\HangHoaMng.Designer.cs">
       <DependentUpon>HangHoaMng.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoaiHangHoaMng.cs">
+    <Compile Include="QLHH-LHH\LoaiHangHoaMng.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoaiHangHoaMng.Designer.cs">
+    <Compile Include="QLHH-LHH\LoaiHangHoaMng.Designer.cs">
       <DependentUpon>LoaiHangHoaMng.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoaiHH.cs" />
+    <Compile Include="QLHH-LHH\LoaiHH.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLNV\FormQLNV.cs">
@@ -99,47 +99,47 @@
       <DependentUpon>FormSuaNV.cs</DependentUpon>
     </Compile>
     <Compile Include="QLNV\NhanVien.cs" />
-    <Compile Include="QuanLyHH.cs">
+    <Compile Include="QLHH-LHH\QuanLyHH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyHH.Designer.cs">
+    <Compile Include="QLHH-LHH\QuanLyHH.Designer.cs">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
     </Compile>
-    <Compile Include="SuaHangHoa.cs">
+    <Compile Include="QLHH-LHH\SuaHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SuaHangHoa.Designer.cs">
+    <Compile Include="QLHH-LHH\SuaHangHoa.Designer.cs">
       <DependentUpon>SuaHangHoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="SuaLoaiHH.cs">
+    <Compile Include="QLHH-LHH\SuaLoaiHH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SuaLoaiHH.Designer.cs">
+    <Compile Include="QLHH-LHH\SuaLoaiHH.Designer.cs">
       <DependentUpon>SuaLoaiHH.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemHangHoa.cs">
+    <Compile Include="QLHH-LHH\ThemHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemHangHoa.Designer.cs">
+    <Compile Include="QLHH-LHH\ThemHangHoa.Designer.cs">
       <DependentUpon>ThemHangHoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemLoaiHH.cs">
+    <Compile Include="QLHH-LHH\ThemLoaiHH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemLoaiHH.Designer.cs">
+    <Compile Include="QLHH-LHH\ThemLoaiHH.Designer.cs">
       <DependentUpon>ThemLoaiHH.cs</DependentUpon>
     </Compile>
-    <Compile Include="User.cs" />
-    <EmbeddedResource Include="DangNhap.resx">
+    <Compile Include="QLHH-LHH\User.cs" />
+    <EmbeddedResource Include="QLHH-LHH\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HangHoaMng.resx">
+    <EmbeddedResource Include="QLHH-LHH\HangHoaMng.resx">
       <DependentUpon>HangHoaMng.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoaiHangHoaMng.resx">
+    <EmbeddedResource Include="QLHH-LHH\LoaiHangHoaMng.resx">
       <DependentUpon>LoaiHangHoaMng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -163,19 +163,19 @@
     <EmbeddedResource Include="QLNV\FormXoaNV.resx">
       <DependentUpon>FormXoaNV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyHH.resx">
+    <EmbeddedResource Include="QLHH-LHH\QuanLyHH.resx">
       <DependentUpon>QuanLyHH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SuaHangHoa.resx">
+    <EmbeddedResource Include="QLHH-LHH\SuaHangHoa.resx">
       <DependentUpon>SuaHangHoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SuaLoaiHH.resx">
+    <EmbeddedResource Include="QLHH-LHH\SuaLoaiHH.resx">
       <DependentUpon>SuaLoaiHH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemHangHoa.resx">
+    <EmbeddedResource Include="QLHH-LHH\ThemHangHoa.resx">
       <DependentUpon>ThemHangHoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemLoaiHH.resx">
+    <EmbeddedResource Include="QLHH-LHH\ThemLoaiHH.resx">
       <DependentUpon>ThemLoaiHH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

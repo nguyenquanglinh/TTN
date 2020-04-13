@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace QuanLyBanHangTapHoa
 {
@@ -21,13 +13,17 @@ namespace QuanLyBanHangTapHoa
                 var x = new DangNhap(dbAccess);
                 x.ShowDialog();
                 this.User = x.GetUser;
-                ThongTin.Text = User.ToString();
+                if (this.User == null)
+                {
+                    MessageBox.Show("Bạn cần phải đăng nhập", "Cảnh báo", MessageBoxButtons.OK);
+                    this.Close();
+                }
+                else ThongTin.Text = User.ToString();
             }
             catch
             {
             }
         }
-
         public User User { get; }
     }
 }

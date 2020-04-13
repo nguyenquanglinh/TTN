@@ -20,3 +20,6 @@ D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.FormNhaCC.resourc
 D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.FormPhieuNhap.resources
 D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
 D:\Study\TTN\QuanLyBanHang\QLHH_Giang\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+C:\Users\thang\Source\Repos\TTN\QLBH\QLBH\bin\Debug\QLBH.exe.config
+C:\Users\thang\Source\Repos\TTN\QLBH\QLBH\obj\Debug\QLBH.exe
+C:\Users\thang\Source\Repos\TTN\QLBH\QLBH\obj\Debug\QLBH.pdb
