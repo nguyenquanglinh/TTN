@@ -12,7 +12,7 @@ namespace QuanLyBanHangTapHoa
     public class DbAccess
     {
         SqlConnection connection = new SqlConnection();
-        public static string strConnString = "Data Source =" + "DESKTOP-VLM31NH\\SQLEXPRESS ;Database = QuanLyBanHangTapHoa; Integrated Security=SSPI;";
+        public static string strConnString = "Data Source =" + "DESKTOP-1DLVE1Q\\SQLEXPRESS ;Database = QuanLyBanHangTapHoa; Integrated Security=SSPI;";
         #region hanghoa
         public void createConn()
         {
@@ -26,14 +26,14 @@ namespace QuanLyBanHangTapHoa
             }
             catch
             {
-
+                MessageBox.Show("Không thể mở kết nối đến database");
             }
         }
         public void GetDataTableHangHoa(DataGridView dataGridView1)
         {
             try
             {
-                string query = "select * from HangHoa";
+                string query = "select MaHH as'Mã hàng hóa',TenHH as 'Tên hàng hóa',MaLoai as 'Mã loại' from HangHoa";
                 SqlDataAdapter dataadapter = new SqlDataAdapter(query, connection);
                 DataSet ds = new DataSet();
                 dataadapter.Fill(ds, "data");
@@ -146,11 +146,12 @@ namespace QuanLyBanHangTapHoa
 
         #endregion
 
+        #region loại hàng hóa
         public void GetDataTableLoaiHangHoa(DataGridView dataGridView1)
         {
             try
             {
-                string query = "select * from LoaiHH";
+                string query = "select MaLoai as 'Mã loại',TenLoai as 'Tên loại' from LoaiHH";
                 SqlDataAdapter dataadapter = new SqlDataAdapter(query, connection);
                 DataSet ds = new DataSet();
                 dataadapter.Fill(ds, "data");
@@ -191,10 +192,6 @@ namespace QuanLyBanHangTapHoa
             if (ch == null) return false;
             try
             {
-                //var s = Convert.ToDateTime(ch.NgayVao);
-                //var x = s.Day + "/" + s.Month + "/" + s.Year;
-                //var r = Convert.ToDateTime(ch.NamSinh);
-                //var y = r.Day + "/" + r.Month + "/" + r.Year;
                 var sql = "update LoaiHH set MaLoai ='" +
                       @ch.MaLoai +
                       "', TenHH='" + @ch.TenLoai +
@@ -234,5 +231,6 @@ namespace QuanLyBanHangTapHoa
             }
             return false;
         }
+        #endregion
     }
 }

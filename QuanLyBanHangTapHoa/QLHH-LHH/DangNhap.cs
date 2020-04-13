@@ -41,15 +41,13 @@ namespace QuanLyBanHangTapHoa
                 return;
             }
                 string query = "select * from UserTable where userName='" +
-                userName + "' and password = '" +
+                userName + "' and passWord = '" +
                 password + "'";
             var dtUsers = dbAccess.readDatathroughtAdapter(query);
             if (dtUsers.Rows.Count != 0)
             {
-                var id = dtUsers.Rows[0]["ID"].ToString();
                 var property = dtUsers.Rows[0]["properties"].ToString();
-
-                this.GetUser = new User(id, userName, password, property);
+                this.GetUser = new User( userName, password, property);
                 MessageBox.Show("Chúc mừng bạn đã đăng nhập thành công ");
                 //dbAccess.sdr.Close();
                 this.Close();

@@ -12,3 +12,17 @@ D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang.FormXuat
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormSuaphieuxuat.resources
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormThemphieuxuat.resources
 D:\GitHub\TTNQuanLyBanhangTapHoa\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormXoaphieuxuat.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.FormLogin.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.FormMain.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XuatHang.FormXuatHang.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormSuaphieuxuat.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormThemphieuxuat.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormXoaphieuxuat.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.pdb

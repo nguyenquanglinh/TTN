@@ -19,7 +19,7 @@ namespace QuanLyBanHangTapHoa
         public LoaiHangHoaMng(DbAccess db) : this()
         {
             this.Db = db;
-            this.Db.GetDataTableHangHoa(dataGridView1);
+            this.Db.GetDataTableLoaiHangHoa(dataGridView1);
         }
         private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
         {
@@ -72,7 +72,7 @@ namespace QuanLyBanHangTapHoa
                     MessageBox.Show("dữ liệu rỗng");
                 }
             }
-            this.Db.GetDataTableHangHoa(dataGridView1);
+            this.Db.GetDataTableLoaiHangHoa(dataGridView1);
         }
         LoaiHH s = null;
 
@@ -87,19 +87,7 @@ namespace QuanLyBanHangTapHoa
             }
             catch
             {
-
             }
-
-        }
-
-        private void LoaiHangHoaMng_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

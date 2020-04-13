@@ -18,12 +18,30 @@ namespace QuanLyBanHangTapHoa
                     MessageBox.Show("Bạn cần phải đăng nhập", "Cảnh báo", MessageBoxButtons.OK);
                     this.Close();
                 }
-                else ThongTin.Text = User.ToString();
+                else
+                {
+                    ThongTin.Text = User.ToString();
+                }
             }
             catch
             {
             }
         }
         public User User { get; }
+
+        private void btnHH_Click(object sender, System.EventArgs e)
+        {
+            new HangHoaMng(dbAccess).ShowDialog();
+        }
+
+        private void btnHDX_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            new LoaiHangHoaMng(dbAccess).ShowDialog();
+        }
     }
 }

@@ -67,3 +67,4 @@ C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHo
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csproj.GenerateResource.Cache
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.exe
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csprojResolveAssemblyReference.cache

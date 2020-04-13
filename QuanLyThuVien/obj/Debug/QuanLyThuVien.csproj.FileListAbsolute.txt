@@ -1,0 +1,8 @@
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb

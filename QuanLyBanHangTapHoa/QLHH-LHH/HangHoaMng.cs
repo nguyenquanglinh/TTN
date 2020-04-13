@@ -16,7 +16,7 @@ namespace QuanLyBanHangTapHoa
         {
             InitializeComponent();
         }
-        public HangHoaMng(DbAccess db)
+        public HangHoaMng(DbAccess db):this()
         {
             this.Db = db;
             this.Db.GetDataTableHangHoa(dataGridView1);
@@ -30,7 +30,6 @@ namespace QuanLyBanHangTapHoa
         }
         private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
         {
-
             if (e.Button == MouseButtons.Right)
             {
                 ContextMenuStrip contexMenuCanHo = new ContextMenuStrip();
@@ -94,11 +93,6 @@ namespace QuanLyBanHangTapHoa
             {
 
             }
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
         }
     }
