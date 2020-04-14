@@ -17,7 +17,6 @@ namespace QuanLyKho
         {
             InitializeComponent();
         }
-
         private void btnDangnhap_Click(object sender, EventArgs e)
         {
             if ((txtacc.Text == "") || (txtpass.Text == ""))
@@ -33,7 +32,7 @@ namespace QuanLyKho
                 {
                     MessageBox.Show("Đăng nhập thành công","Thông báo",MessageBoxButtons.OK);
                     this.Hide();
-                    FormMain a = new FormMain();
+                    FormMain a = new FormMain(connet);
                     a.Show();
                 }
                 else

@@ -46,8 +46,6 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
         {
             try
             {
-                
-              
                 SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
                 conn.Open();
                 string them = "INSERT INTO PhieuXuat (maPX,ngayXuat ,tongTien) VALUES('" + txtMaPX.Text + "','" + txtNgayXuat.Text +"','" + txtTongTien.Text + "')";

@@ -44,9 +44,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(334, 9);
+            this.label1.Location = new System.Drawing.Point(250, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(471, 49);
+            this.label1.Size = new System.Drawing.Size(381, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hệ Thống Quản Lý Kho";
             // 
@@ -54,20 +55,23 @@
             // 
             this.btnNhapHang.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapHang.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnNhapHang.Location = new System.Drawing.Point(47, 129);
+            this.btnNhapHang.Location = new System.Drawing.Point(35, 105);
+            this.btnNhapHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNhapHang.Name = "btnNhapHang";
-            this.btnNhapHang.Size = new System.Drawing.Size(172, 101);
+            this.btnNhapHang.Size = new System.Drawing.Size(129, 82);
             this.btnNhapHang.TabIndex = 1;
             this.btnNhapHang.Text = "Nhập Hàng";
             this.btnNhapHang.UseVisualStyleBackColor = true;
+            this.btnNhapHang.Click += new System.EventHandler(this.btnNhapHang_Click);
             // 
             // btnTimKiem
             // 
             this.btnTimKiem.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnTimKiem.Location = new System.Drawing.Point(47, 304);
+            this.btnTimKiem.Location = new System.Drawing.Point(35, 247);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(172, 101);
+            this.btnTimKiem.Size = new System.Drawing.Size(129, 82);
             this.btnTimKiem.TabIndex = 2;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -76,9 +80,10 @@
             // 
             this.btnHelp.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHelp.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnHelp.Location = new System.Drawing.Point(653, 304);
+            this.btnHelp.Location = new System.Drawing.Point(490, 247);
+            this.btnHelp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(172, 101);
+            this.btnHelp.Size = new System.Drawing.Size(129, 82);
             this.btnHelp.TabIndex = 3;
             this.btnHelp.Text = "Help";
             this.btnHelp.UseVisualStyleBackColor = true;
@@ -87,9 +92,10 @@
             // 
             this.btnExit.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnExit.Location = new System.Drawing.Point(913, 304);
+            this.btnExit.Location = new System.Drawing.Point(685, 247);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(172, 101);
+            this.btnExit.Size = new System.Drawing.Size(129, 82);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -99,9 +105,10 @@
             // 
             this.btnThongKe.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongKe.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnThongKe.Location = new System.Drawing.Point(343, 304);
+            this.btnThongKe.Location = new System.Drawing.Point(257, 247);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(172, 101);
+            this.btnThongKe.Size = new System.Drawing.Size(129, 82);
             this.btnThongKe.TabIndex = 5;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
@@ -110,9 +117,10 @@
             // 
             this.btnXuatHang.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXuatHang.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnXuatHang.Location = new System.Drawing.Point(343, 129);
+            this.btnXuatHang.Location = new System.Drawing.Point(257, 105);
+            this.btnXuatHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXuatHang.Name = "btnXuatHang";
-            this.btnXuatHang.Size = new System.Drawing.Size(172, 101);
+            this.btnXuatHang.Size = new System.Drawing.Size(129, 82);
             this.btnXuatHang.TabIndex = 6;
             this.btnXuatHang.Text = "Xuất Hàng";
             this.btnXuatHang.UseVisualStyleBackColor = true;
@@ -122,9 +130,10 @@
             // 
             this.btnQLHanghoa.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLHanghoa.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnQLHanghoa.Location = new System.Drawing.Point(653, 129);
+            this.btnQLHanghoa.Location = new System.Drawing.Point(490, 105);
+            this.btnQLHanghoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnQLHanghoa.Name = "btnQLHanghoa";
-            this.btnQLHanghoa.Size = new System.Drawing.Size(172, 101);
+            this.btnQLHanghoa.Size = new System.Drawing.Size(129, 82);
             this.btnQLHanghoa.TabIndex = 7;
             this.btnQLHanghoa.Text = "QL Hàng Hóa";
             this.btnQLHanghoa.UseVisualStyleBackColor = true;
@@ -133,18 +142,19 @@
             // 
             this.btnNCC.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNCC.ForeColor = System.Drawing.Color.DarkOrange;
-            this.btnNCC.Location = new System.Drawing.Point(913, 129);
+            this.btnNCC.Location = new System.Drawing.Point(685, 105);
+            this.btnNCC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNCC.Name = "btnNCC";
-            this.btnNCC.Size = new System.Drawing.Size(172, 101);
+            this.btnNCC.Size = new System.Drawing.Size(129, 82);
             this.btnNCC.TabIndex = 8;
             this.btnNCC.Text = "Nhà Cung Cấp";
             this.btnNCC.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 539);
+            this.ClientSize = new System.Drawing.Size(831, 438);
             this.Controls.Add(this.btnNCC);
             this.Controls.Add(this.btnQLHanghoa);
             this.Controls.Add(this.btnXuatHang);
@@ -154,6 +164,7 @@
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.btnNhapHang);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMain";

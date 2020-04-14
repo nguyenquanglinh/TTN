@@ -26,3 +26,4 @@ C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxu
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.exe
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.QuanLyPhieuNhap.resources
