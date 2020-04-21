@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -61,6 +62,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHangHoa\FormQLHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHangHoa\FormQLHH.Designer.cs">
+      <DependentUpon>FormQLHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLHangHoa\FormSuaHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHangHoa\FormSuaHH.Designer.cs">
+      <DependentUpon>FormSuaHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLHangHoa\FormThemHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHangHoa\FormThemHH.Designer.cs">
+      <DependentUpon>FormThemHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLHangHoa\FormXoaHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHangHoa\FormXoaHH.Designer.cs">
+      <DependentUpon>FormXoaHH.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +97,12 @@
     </Compile>
     <Compile Include="ThemPhieuNhap.Designer.cs">
       <DependentUpon>ThemPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKe\FormThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKe\FormThongKe.Designer.cs">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
     </Compile>
     <Compile Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.cs">
       <SubType>Form</SubType>
@@ -112,11 +143,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLHangHoa\FormQLHH.resx">
+      <DependentUpon>FormQLHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHangHoa\FormSuaHH.resx">
+      <DependentUpon>FormSuaHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHangHoa\FormThemHH.resx">
+      <DependentUpon>FormThemHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHangHoa\FormXoaHH.resx">
+      <DependentUpon>FormXoaHH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhieuNhap.resx">
       <DependentUpon>QuanLyPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemPhieuNhap.resx">
       <DependentUpon>ThemPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKe\FormThongKe.resx">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.resx">
       <DependentUpon>FormQLphieuxuat.cs</DependentUpon>
@@ -147,8 +193,6 @@
     <Folder Include="Help\" />
     <Folder Include="NhaCungCap\" />
     <Folder Include="NhapHang%28QLphieunhap%29\" />
-    <Folder Include="QLHangHoa\" />
-    <Folder Include="ThongKe\" />
     <Folder Include="TimKiemHH\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

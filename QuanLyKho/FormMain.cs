@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using QuanLyKho.XuatHang;
+using QuanLyKho.QLHangHoa;
+using QuanLyKho.ThongKe;
 
 namespace QuanLyKho
 {
@@ -33,6 +35,20 @@ namespace QuanLyKho
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
             new QuanLyPhieuNhap(connet).ShowDialog();
+        }
+
+        private void btnQLHanghoa_Click(object sender, EventArgs e)
+        {
+            FormQLHH f = new FormQLHH();
+            f.Show();
+            this.Hide();
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            FormThongKe f = new FormThongKe();
+            f.Show();
+            this.Hide();
         }
     }
 }

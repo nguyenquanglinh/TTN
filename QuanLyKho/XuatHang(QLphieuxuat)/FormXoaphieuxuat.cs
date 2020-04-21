@@ -39,8 +39,8 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
               
                 SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
                 conn.Open();
-                string chitietphieunhap = "delete Chitietxuat where maPX='" + txtMPXCanXoa.Text + "'";
-                string xoaphieunhap = "delete PhieuXuat where maPX='" + txtMPXCanXoa.Text + "'";
+                string chitietphieunhap = "delete Chitietxuat where maPX='" + txtMaPhieuXuat.Text + "'";
+                string xoaphieunhap = "delete PhieuXuat where maPX='" + txtMaPhieuXuat.Text + "'";
                
               
                 SqlCommand cmdxoaphieunhap = new SqlCommand(xoaphieunhap, conn);

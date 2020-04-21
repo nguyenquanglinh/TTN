@@ -45,20 +45,26 @@ namespace QuanLyKho
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if ((txtMaPhieuXuat2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
-            {
-                MessageBox.Show("Xin hãy Điền Đủ Thông Tin", "Thông Báo");
-                return;
-            }
-            else
-            {
-                string them = "INSERT INTO Chitietxuat (maCTX,MaPX ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPhieuXuat2.Text + "','" + txtMaHH.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
-                if (Cs.RunQuery(them))
-                {
-                    MessageBox.Show("thêm thành công !");
-                }
-                else MessageBox.Show("Lỗi ! không thêm được");
+            //if ((txtMaPhieuXuat2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
+            //{
+            //    MessageBox.Show("Xin hãy Điền Đủ Thông Tin", "Thông Báo");
+            //    return;
+            //}
+            //else
+            //{
+            //    string them = "INSERT INTO Chitietxuat (maCTX,MaPX ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPhieuXuat2.Text + "','" + txtMaHH.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
+            //    if (Cs.RunQuery(them))
+            //    {
+            //        MessageBox.Show("thêm thành công !");
+            //    }
+            //    else MessageBox.Show("Lỗi ! không thêm được");
 
-            }
+            //}
+        }
+
+        private void ThemPhieuNhap_Load(object sender, EventArgs e)
+        {
+
         }
     }
+}

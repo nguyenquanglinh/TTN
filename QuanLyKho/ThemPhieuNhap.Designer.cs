@@ -281,6 +281,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ThemPhieuNhap";
             this.Text = "Thêm phiếu nhập";
+            this.Load += new System.EventHandler(this.ThemPhieuNhap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

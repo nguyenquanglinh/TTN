@@ -60,7 +60,7 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
             }
             finally
             {
-              
+
                 SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
                 MessageBox.Show("thêm thành công !");
                 conn.Close();
@@ -129,6 +129,86 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
                     MessageBox.Show("Mã Hàng hóa Hoặc Mã Phiếu Xuất không hợp lệ !");
                 }
             }
+        }
+
+        private void txtNgayXuat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTongTien_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaHH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSoLuong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDonGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaChiTietPhieuXuat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaPhieuXuat2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

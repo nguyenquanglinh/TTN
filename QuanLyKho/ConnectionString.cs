@@ -7,7 +7,7 @@ namespace QuanLyKho
 {
    public class ConnectionString
     {
-        public static string connectionString = "Data Source =" + "DESKTOP-1DLVE1Q\\SQLEXPRESS ;Database = Quan_Ly_Kho; Integrated Security=SSPI;";
+        public static string connectionString = "Data Source =" + "DGIANG\\SQLEXPRESS2014 ;Database = Quan_Ly_Kho; Integrated Security=true;";
         private static SqlConnection con = new SqlConnection(connectionString);
 
         public ConnectionString()
