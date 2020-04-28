@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -35,31 +36,91 @@ namespace QuanLyKho
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string queryThem = "INSERT INTO PhieuNhap (maPN,ngayNhap ,tongTien) VALUES('" + txtMaPX.Text + "','" + txtNgayXuat.Text + "','" + txtTongTien.Text + "')";
-            if (Cs.RunQuery(queryThem))
+            try
             {
-                MessageBox.Show("Thêm phiếu nhập thành công");
+                SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
+                conn.Open();
+                string them = "INSERT INTO PhieuNhap (maPN,ngayNhap ,tongTien) VALUES('" + txtMaPX.Text + "','" + txtNgayXuat.Text + "','" + txtTongTien.Text + "')";
+
+                SqlCommand cmdthem = new SqlCommand(them, conn);
+                cmdthem.ExecuteNonQuery();
             }
-            else MessageBox.Show("Thêm phiếu nhập không thành công");
+            catch
+            {
+                MessageBox.Show("Lỗi ! không thêm được");
+
+            }
+            finally
+            {
+
+                SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
+                MessageBox.Show("thêm thành công !");
+                conn.Close();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //if ((txtMaPhieuXuat2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
-            //{
-            //    MessageBox.Show("Xin hãy Điền Đủ Thông Tin", "Thông Báo");
-            //    return;
-            //}
-            //else
-            //{
-            //    string them = "INSERT INTO Chitietxuat (maCTX,MaPX ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPhieuXuat2.Text + "','" + txtMaHH.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
-            //    if (Cs.RunQuery(them))
-            //    {
-            //        MessageBox.Show("thêm thành công !");
-            //    }
-            //    else MessageBox.Show("Lỗi ! không thêm được");
+            if ((txtMaPN2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
+            {
+                MessageBox.Show("Xin hãy Điền Đủ Thông Tin", "Thông Báo");
+                return;
+            }
+            else
+            {
+                SqlConnection con = new SqlConnection(ConnectionString.connectionString);
+                con.Open();
+                string hh = "select count(*) from HangHoa where maHH='" + txtHoaDon.Text + "'";
+                string px = "select count(*) from PhieuNhap where maPN='" + txtMaPN2.Text + "'";
 
-            //}
+                SqlDataAdapter dahh = new SqlDataAdapter(hh, con);
+                SqlDataAdapter dapx = new SqlDataAdapter(px, con);
+
+
+                DataTable dthh = new DataTable();
+                DataTable dtpx = new DataTable();
+                try
+                {
+                    dahh.Fill(dthh);
+                    dapx.Fill(dtpx);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+                if (dthh.Rows[0][0].ToString() == "1" && dtpx.Rows[0][0].ToString() == "1")
+                {
+
+                    try
+                    {
+
+                        SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
+                        conn.Open();
+                        string them = "INSERT INTO Chitietnhap (maCTN,MaPN ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPN2.Text + "','" + txtHoaDon.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
+                        SqlCommand cmdthem = new SqlCommand(them, conn);
+                        cmdthem.ExecuteNonQuery();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Lỗi ! không thêm được");
+
+                    }
+                    finally
+                    {
+
+                        SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
+                        MessageBox.Show("thêm thành công !");
+                        conn.Close();
+                    }
+
+
+                }
+                else
+                {
+
+                    MessageBox.Show("Mã Hàng hóa Hoặc Mã Phiếu Xuất không hợp lệ !");
+                }
+            }
         }
 
         private void ThemPhieuNhap_Load(object sender, EventArgs e)

@@ -67,7 +67,7 @@
             // 
             this.btnThoat.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnThoat.Location = new System.Drawing.Point(788, 75);
+            this.btnThoat.Location = new System.Drawing.Point(795, 102);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(130, 77);
@@ -80,7 +80,7 @@
             // 
             this.btnTroLai.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroLai.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnTroLai.Location = new System.Drawing.Point(600, 75);
+            this.btnTroLai.Location = new System.Drawing.Point(597, 102);
             this.btnTroLai.Margin = new System.Windows.Forms.Padding(2);
             this.btnTroLai.Name = "btnTroLai";
             this.btnTroLai.Size = new System.Drawing.Size(130, 77);
@@ -93,7 +93,7 @@
             // 
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnSua.Location = new System.Drawing.Point(226, 75);
+            this.btnSua.Location = new System.Drawing.Point(231, 102);
             this.btnSua.Margin = new System.Windows.Forms.Padding(2);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(130, 77);
@@ -105,7 +105,7 @@
             // 
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnXoa.Location = new System.Drawing.Point(415, 75);
+            this.btnXoa.Location = new System.Drawing.Point(415, 102);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(130, 77);
@@ -117,13 +117,14 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnThem.Location = new System.Drawing.Point(48, 75);
+            this.btnThem.Location = new System.Drawing.Point(48, 102);
             this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(130, 77);
             this.btnThem.TabIndex = 14;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // label2
             // 
@@ -152,7 +153,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(314, -25);
+            this.label1.Location = new System.Drawing.Point(299, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(335, 40);

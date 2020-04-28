@@ -28,8 +28,7 @@ namespace QuanLyKho
         private void btnXuatHang_Click(object sender, EventArgs e)
         {
             FormXuatHang f = new FormXuatHang();
-            f.Show();
-            this.Hide();
+            f.ShowDialog();
         }
 
         private void btnNhapHang_Click(object sender, EventArgs e)
@@ -40,15 +39,13 @@ namespace QuanLyKho
         private void btnQLHanghoa_Click(object sender, EventArgs e)
         {
             FormQLHH f = new FormQLHH();
-            f.Show();
-            this.Hide();
+            f.ShowDialog();
         }
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
             FormThongKe f = new FormThongKe();
-            f.Show();
-            this.Hide();
+            f.ShowDialog();
         }
     }
 }

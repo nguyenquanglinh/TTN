@@ -33,7 +33,7 @@ namespace QuanLyKho
                     MessageBox.Show("Đăng nhập thành công","Thông báo",MessageBoxButtons.OK);
                     this.Hide();
                     FormMain a = new FormMain(connet);
-                    a.Show();
+                    a.ShowDialog();
                 }
                 else
                 {

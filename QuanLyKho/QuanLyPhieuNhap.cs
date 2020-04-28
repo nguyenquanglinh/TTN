@@ -44,5 +44,10 @@ namespace QuanLyKho
         {
 
         }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            new ThemPhieuNhap(Cs).ShowDialog();
+        }
     }
 }

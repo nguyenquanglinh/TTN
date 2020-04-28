@@ -7,7 +7,7 @@ namespace QuanLyKho
 {
    public class ConnectionString
     {
-        public static string connectionString = "Data Source =" + "DGIANG\\SQLEXPRESS2014 ;Database = Quan_Ly_Kho; Integrated Security=true;";
+        public static string connectionString = "Data Source =" + "DESKTOP-1DLVE1Q\\SQLEXPRESS;Database = Quan_Ly_Kho; Integrated Security=true;";
         private static SqlConnection con = new SqlConnection(connectionString);
 
         public ConnectionString()
@@ -21,7 +21,7 @@ namespace QuanLyKho
                 }
                 catch
                 {
-
+                    break;
                 }
                 
             }
@@ -37,7 +37,18 @@ namespace QuanLyKho
 
         internal bool RunQuery(string queryThem)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (SqlCommand insertCommand = new SqlCommand(queryThem, con))
+                {
+                    if (insertCommand.ExecuteNonQuery() > 0)
+                    {
+                        return true;
+                    }
+                }
+            }
+            catch { }
+            return false;
         }
 
         internal bool GetDataFromTableChiTietPhieuNhap(DataGridView dataGridView2)

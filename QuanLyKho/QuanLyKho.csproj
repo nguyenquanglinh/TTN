@@ -92,6 +92,12 @@
     <Compile Include="QuanLyPhieuNhap.Designer.cs">
       <DependentUpon>QuanLyPhieuNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuaPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaPN.Designer.cs">
+      <DependentUpon>SuaPN.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,12 @@
     </Compile>
     <Compile Include="ThongKe\FormThongKe.Designer.cs">
       <DependentUpon>FormThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XoaPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XoaPhieuNhap.Designer.cs">
+      <DependentUpon>XoaPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.cs">
       <SubType>Form</SubType>
@@ -157,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLyPhieuNhap.resx">
       <DependentUpon>QuanLyPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaPN.resx">
+      <DependentUpon>SuaPN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemPhieuNhap.resx">
       <DependentUpon>ThemPhieuNhap.cs</DependentUpon>
