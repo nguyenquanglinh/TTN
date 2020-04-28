@@ -82,8 +82,8 @@ namespace QuanLyBanHangTapHoa
         {
             try
             {
-                s = new LoaiHH(dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString(),
-                    dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString());
+                s = new LoaiHH(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString(),
+                    dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString());
             }
             catch
             {

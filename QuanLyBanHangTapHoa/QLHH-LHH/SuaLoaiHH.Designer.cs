@@ -88,7 +88,7 @@
             this.Controls.Add(this.txtTenLoai);
             this.Controls.Add(this.label2);
             this.Name = "SuaLoaiHH";
-            this.Text = "SuaLoaiHH";
+            this.Text = "SỬA LOẠI HÀNG HÓA";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -22,9 +22,9 @@ namespace QuanLyBanHangTapHoa
         public string MaLoai { get; set; }
         public bool CheckHHNotNull()
         {
-            if (string.IsNullOrEmpty(this.TenHH))
+            if (!string.IsNullOrEmpty(this.TenHH))
             {
-                if (string.IsNullOrEmpty(MaHH))
+                if (!string.IsNullOrEmpty(MaHH))
                 {
                     if (string.IsNullOrEmpty(MaLoai))
                         return true;

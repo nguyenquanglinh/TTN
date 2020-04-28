@@ -37,7 +37,7 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(94, 139);
+            this.btnDangNhap.Location = new System.Drawing.Point(108, 150);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(75, 23);
             this.btnDangNhap.TabIndex = 9;
@@ -91,7 +91,7 @@
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.Name = "DangNhap";
-            this.Text = "Đăng nhập";
+            this.Text = "ĐĂNG NHẬP";
             this.ResumeLayout(false);
             this.PerformLayout();
 

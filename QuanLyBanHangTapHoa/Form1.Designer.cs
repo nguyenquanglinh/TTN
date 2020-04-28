@@ -129,7 +129,7 @@
             this.Controls.Add(this.btnDangNhapUser);
             this.Controls.Add(this.ThongTin);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "QUẢN LÝ BÁN HÀNG TẠP HÓA";
             this.ResumeLayout(false);
             this.PerformLayout();
 

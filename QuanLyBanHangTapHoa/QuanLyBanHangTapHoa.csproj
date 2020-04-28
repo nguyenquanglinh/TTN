@@ -99,12 +99,6 @@
       <DependentUpon>FormSuaNV.cs</DependentUpon>
     </Compile>
     <Compile Include="QLNV\NhanVien.cs" />
-    <Compile Include="QLHH-LHH\QuanLyHH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QLHH-LHH\QuanLyHH.Designer.cs">
-      <DependentUpon>QuanLyHH.cs</DependentUpon>
-    </Compile>
     <Compile Include="QLHH-LHH\SuaHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +156,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QLNV\FormXoaNV.resx">
       <DependentUpon>FormXoaNV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QLHH-LHH\QuanLyHH.resx">
-      <DependentUpon>QuanLyHH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLHH-LHH\SuaHangHoa.resx">
       <DependentUpon>SuaHangHoa.cs</DependentUpon>

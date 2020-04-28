@@ -27,7 +27,10 @@ namespace QuanLyBanHangTapHoa
         {
             NhapHH();
             if (hh.CheckHHNotNull())
-                MessageBox.Show("Nhập xong thông tin hàng hóa. Lưu lại", "thông báo", MessageBoxButtons.OK);
+            {
+                MessageBox.Show("Đang tiến hành lưu.", "thông báo", MessageBoxButtons.OK);
+                this.Close();
+            }
         }
     }
 }

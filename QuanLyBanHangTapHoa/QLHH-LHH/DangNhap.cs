@@ -48,13 +48,13 @@ namespace QuanLyBanHangTapHoa
             {
                 var property = dtUsers.Rows[0]["properties"].ToString();
                 this.GetUser = new User( userName, password, property);
-                MessageBox.Show("Chúc mừng bạn đã đăng nhập thành công ");
+                MessageBox.Show("Chúc mừng bạn đã đăng nhập thành công ","Thông báo",MessageBoxButtons.OK);
                 //dbAccess.sdr.Close();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Đăng nhập không thành công");
+                MessageBox.Show("Đăng nhập không thành công","Thông báo",MessageBoxButtons.OK);
             }
         }
     }
