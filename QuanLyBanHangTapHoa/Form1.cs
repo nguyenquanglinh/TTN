@@ -43,5 +43,10 @@ namespace QuanLyBanHangTapHoa
         {
             new LoaiHangHoaMng(dbAccess).ShowDialog();
         }
+
+        private void btnNV_Click(object sender, System.EventArgs e)
+        {
+            new QLNV.FormQLNV().ShowDialog();
+        }
     }
 }

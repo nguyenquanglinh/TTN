@@ -22,21 +22,21 @@ namespace QuanLyBanHangTapHoa.QLNV
         {
             this.Hide();
             FormThemNV themnv = new FormThemNV();
-            themnv.Show();
+            themnv.ShowDialog();
         }
 
         private void btnsua_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormSuaNV  suanv = new FormSuaNV();
-            suanv.Show();
+            suanv.ShowDialog();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
             this.Hide();
             FormXoaNV xoanv = new FormXoaNV();
-            xoanv.Show();
+            xoanv.ShowDialog();
         }
 
         private void FormQLNV_Load(object sender, EventArgs e)

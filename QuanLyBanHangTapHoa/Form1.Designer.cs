@@ -66,6 +66,7 @@
             this.btnNV.TabIndex = 3;
             this.btnNV.Text = "Quản lý nhân viên";
             this.btnNV.UseVisualStyleBackColor = true;
+            this.btnNV.Click += new System.EventHandler(this.btnNV_Click);
             // 
             // btnHH
             // 
