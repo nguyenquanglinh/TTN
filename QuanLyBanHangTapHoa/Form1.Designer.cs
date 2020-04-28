@@ -86,6 +86,7 @@
             this.btnHDN.TabIndex = 7;
             this.btnHDN.Text = "Quản lý hóa đơn nhập";
             this.btnHDN.UseVisualStyleBackColor = true;
+            this.btnHDN.Click += new System.EventHandler(this.btnHDN_Click);
             // 
             // btnHDX
             // 
@@ -115,6 +116,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Quản lý kho";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

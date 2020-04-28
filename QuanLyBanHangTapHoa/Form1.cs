@@ -36,6 +36,7 @@ namespace QuanLyBanHangTapHoa
 
         private void btnHDX_Click(object sender, System.EventArgs e)
         {
+            MessageBox.Show("Thành viên chưa hoàn thành");
 
         }
 
@@ -47,6 +48,17 @@ namespace QuanLyBanHangTapHoa
         private void btnNV_Click(object sender, System.EventArgs e)
         {
             new QLNV.FormQLNV().ShowDialog();
+        }
+
+        private void button2_Click(object sender, System.EventArgs e)
+        {
+            MessageBox.Show("Thành viên chưa hoàn thành");
+        }
+
+        private void btnHDN_Click(object sender, System.EventArgs e)
+        {
+            MessageBox.Show("Thành viên chưa hoàn thành");
+
         }
     }
 }
