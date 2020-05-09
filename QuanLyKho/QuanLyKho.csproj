@@ -110,10 +110,10 @@
     <Compile Include="ThongKe\FormThongKe.Designer.cs">
       <DependentUpon>FormThongKe.cs</DependentUpon>
     </Compile>
-    <Compile Include="XoaPhieuNhap.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\XoaPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XoaPhieuNhap.Designer.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\XoaPhieuNhap.Designer.cs">
       <DependentUpon>XoaPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.cs">
@@ -207,7 +207,6 @@
   <ItemGroup>
     <Folder Include="Help\" />
     <Folder Include="NhaCungCap\" />
-    <Folder Include="NhapHang%28QLphieunhap%29\" />
     <Folder Include="TimKiemHH\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -59,7 +59,6 @@ C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHo
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QLNV.FormSuaNV.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QLNV.FormThemNV.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QLNV.FormXoaNV.resources
-C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.QuanLyHH.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaHangHoa.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.SuaLoaiHH.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources
