@@ -69,3 +69,11 @@ C:\Users\thang\Source\Repos\TTN2\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieux
 C:\Users\thang\Source\Repos\TTN2\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormThemphieuxuat.resources
 C:\Users\thang\Source\Repos\TTN2\QuanLyKho\obj\Debug\QuanLyKho.XuatHang_QLphieuxuat_.FormXoaphieuxuat.resources
 C:\Users\thang\Source\Repos\TTN2\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.QLHangHoa.FormQLHH.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.QLHangHoa.FormSuaHH.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.QLHangHoa.FormThemHH.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.QLHangHoa.FormXoaHH.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.SuaPhieuNhap.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.ThemPhieuNhap.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.ThongKe.FormThongKe.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XoaPhieuNhap.resources

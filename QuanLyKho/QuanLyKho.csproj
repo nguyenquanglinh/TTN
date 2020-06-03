@@ -86,22 +86,22 @@
     <Compile Include="QLHangHoa\FormXoaHH.Designer.cs">
       <DependentUpon>FormXoaHH.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyPhieuNhap.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\QuanLyPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyPhieuNhap.Designer.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\QuanLyPhieuNhap.Designer.cs">
       <DependentUpon>QuanLyPhieuNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="SuaPN.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\SuaPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SuaPN.Designer.cs">
-      <DependentUpon>SuaPN.cs</DependentUpon>
+    <Compile Include="NhapHang%28QLphieunhap%29\SuaPhieuNhap.Designer.cs">
+      <DependentUpon>SuaPhieuNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemPhieuNhap.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\ThemPhieuNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemPhieuNhap.Designer.cs">
+    <Compile Include="NhapHang%28QLphieunhap%29\ThemPhieuNhap.Designer.cs">
       <DependentUpon>ThemPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongKe\FormThongKe.cs">
@@ -167,17 +167,20 @@
     <EmbeddedResource Include="QLHangHoa\FormXoaHH.resx">
       <DependentUpon>FormXoaHH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyPhieuNhap.resx">
+    <EmbeddedResource Include="NhapHang%28QLphieunhap%29\QuanLyPhieuNhap.resx">
       <DependentUpon>QuanLyPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SuaPN.resx">
-      <DependentUpon>SuaPN.cs</DependentUpon>
+    <EmbeddedResource Include="NhapHang%28QLphieunhap%29\SuaPhieuNhap.resx">
+      <DependentUpon>SuaPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemPhieuNhap.resx">
+    <EmbeddedResource Include="NhapHang%28QLphieunhap%29\ThemPhieuNhap.resx">
       <DependentUpon>ThemPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongKe\FormThongKe.resx">
       <DependentUpon>FormThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhapHang%28QLphieunhap%29\XoaPhieuNhap.resx">
+      <DependentUpon>XoaPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XuatHang%28QLphieuxuat%29\FormQLphieuxuat.resx">
       <DependentUpon>FormQLphieuxuat.cs</DependentUpon>

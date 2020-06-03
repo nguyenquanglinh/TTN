@@ -47,6 +47,7 @@
             this.label1.Size = new System.Drawing.Size(257, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xóa Phiếu Xuất";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -58,22 +59,24 @@
             this.label2.Size = new System.Drawing.Size(217, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã Phiếu Xuất cần xóa";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtMaPhieuXuat
             // 
             this.txtMaPhieuXuat.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaPhieuXuat.Location = new System.Drawing.Point(354, 155);
-            this.txtMaPhieuXuat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMaPhieuXuat.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaPhieuXuat.Name = "txtMaPhieuXuat";
             this.txtMaPhieuXuat.Size = new System.Drawing.Size(252, 32);
             this.txtMaPhieuXuat.TabIndex = 2;
+            this.txtMaPhieuXuat.TextChanged += new System.EventHandler(this.txtMaPhieuXuat_TextChanged);
             // 
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.OrangeRed;
             this.btnThoat.Location = new System.Drawing.Point(115, 268);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(2);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(116, 72);
             this.btnThoat.TabIndex = 3;
@@ -86,7 +89,7 @@
             this.btnTroLai.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroLai.ForeColor = System.Drawing.Color.OrangeRed;
             this.btnTroLai.Location = new System.Drawing.Point(332, 268);
-            this.btnTroLai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTroLai.Margin = new System.Windows.Forms.Padding(2);
             this.btnTroLai.Name = "btnTroLai";
             this.btnTroLai.Size = new System.Drawing.Size(116, 72);
             this.btnTroLai.TabIndex = 4;
@@ -99,7 +102,7 @@
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.OrangeRed;
             this.btnXoa.Location = new System.Drawing.Point(550, 268);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(116, 72);
             this.btnXoa.TabIndex = 5;
@@ -118,7 +121,7 @@
             this.Controls.Add(this.txtMaPhieuXuat);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormXoaphieuxuat";
             this.Text = "FormXoaphieuxuat";
             this.ResumeLayout(false);

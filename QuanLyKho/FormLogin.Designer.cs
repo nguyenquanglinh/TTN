@@ -105,7 +105,7 @@
             this.ckcHienPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckcHienPass.ForeColor = System.Drawing.Color.Black;
             this.ckcHienPass.Location = new System.Drawing.Point(392, 277);
-            this.ckcHienPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ckcHienPass.Margin = new System.Windows.Forms.Padding(2);
             this.ckcHienPass.Name = "ckcHienPass";
             this.ckcHienPass.Size = new System.Drawing.Size(118, 21);
             this.ckcHienPass.TabIndex = 39;
@@ -119,7 +119,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.Black;
             this.checkBox1.Location = new System.Drawing.Point(266, 277);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(77, 21);
             this.checkBox1.TabIndex = 38;
@@ -176,10 +176,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lb);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

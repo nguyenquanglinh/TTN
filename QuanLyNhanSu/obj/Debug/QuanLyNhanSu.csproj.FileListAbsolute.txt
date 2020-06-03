@@ -1,11 +1,3 @@
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
-C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
@@ -14,3 +6,11 @@ C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\thang\Source\Repos\TTN2\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\thang\Source\Repos\TTN\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb

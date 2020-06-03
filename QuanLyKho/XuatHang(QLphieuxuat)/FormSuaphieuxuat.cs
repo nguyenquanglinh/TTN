@@ -87,5 +87,70 @@ namespace QuanLyKho.XuatHang_QLphieuxuat_
             f.Show();
             this.Hide();  
                 }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaChiTietPhieuXuatcansua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDonGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSoLuong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTongTien_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNgayXuat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaPXcansua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

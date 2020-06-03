@@ -13,25 +13,20 @@ namespace QuanLyKho
 {
     public partial class ThemPhieuNhap : Form
     {
-        public ConnectionString Cs { get; private set; }
-
         public ThemPhieuNhap()
         {
             InitializeComponent();
-        }
-        public ThemPhieuNhap(ConnectionString cs) : this()
-        {
-            this.Cs = cs;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -61,7 +56,7 @@ namespace QuanLyKho
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if ((txtMaPN2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
+            if ((txtMaPhieuXuat2.Text == "") || (txtMaChiTietPhieuXuat.Text == ""))
             {
                 MessageBox.Show("Xin hãy Điền Đủ Thông Tin", "Thông Báo");
                 return;
@@ -70,8 +65,8 @@ namespace QuanLyKho
             {
                 SqlConnection con = new SqlConnection(ConnectionString.connectionString);
                 con.Open();
-                string hh = "select count(*) from HangHoa where maHH='" + txtHoaDon.Text + "'";
-                string px = "select count(*) from PhieuNhap where maPN='" + txtMaPN2.Text + "'";
+                string hh = "select count(*) from HangHoa where maHH='" + txtMaHH.Text + "'";
+                string px = "select count(*) from PhieuNhap where maPN='" + txtMaPhieuXuat2.Text + "'";
 
                 SqlDataAdapter dahh = new SqlDataAdapter(hh, con);
                 SqlDataAdapter dapx = new SqlDataAdapter(px, con);
@@ -96,7 +91,7 @@ namespace QuanLyKho
 
                         SqlConnection conn = new SqlConnection(ConnectionString.connectionString);
                         conn.Open();
-                        string them = "INSERT INTO Chitietnhap (maCTN,MaPN ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPN2.Text + "','" + txtHoaDon.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
+                        string them = "INSERT INTO Chitietnhap (maCTN,MaPN ,maHH,soLuong,donGia) VALUES('" + txtMaChiTietPhieuXuat.Text + "','" + txtMaPhieuXuat2.Text + "','" + txtMaHH.Text + "','" + txtSoLuong.Text + "','" + txtDonGia.Text + "')";
                         SqlCommand cmdthem = new SqlCommand(them, conn);
                         cmdthem.ExecuteNonQuery();
                     }
@@ -118,14 +113,9 @@ namespace QuanLyKho
                 else
                 {
 
-                    MessageBox.Show("Mã Hàng hóa Hoặc Mã Phiếu Xuất không hợp lệ !");
+                    MessageBox.Show("Mã Hàng hóa Hoặc Mã Phiếu nhập không hợp lệ !");
                 }
             }
-        }
-
-        private void ThemPhieuNhap_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

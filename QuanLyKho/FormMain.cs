@@ -33,7 +33,7 @@ namespace QuanLyKho
 
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
-            new QuanLyPhieuNhap(connet).ShowDialog();
+            new QuanLyPhieuNhap().ShowDialog();
         }
 
         private void btnQLHanghoa_Click(object sender, EventArgs e)
