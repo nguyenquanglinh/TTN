@@ -12,10 +12,18 @@ namespace QuanLyChungCu
 {
     public partial class ThemCanHo : Form
     {
+        private DbAccess dbAccess;
+
         public ThemCanHo()
         {
             InitializeComponent();
         }
+
+        public ThemCanHo(DbAccess dbAccess):this()
+        {
+            this.dbAccess = dbAccess;
+        }
+
         public CanHo GetCanHo { get; set; }        
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -31,7 +39,8 @@ namespace QuanLyChungCu
                             {
                                 string gt = cbNam.Checked == true ? "nam" : "nữ";
                                this.GetCanHo= new CanHo(txtTen.Text, txtCMND.Text, txtTang.Text, txtPhong.Text, txtNgayvao.Text, gt, txtQueQuan.Text, txtNamSinh.Text);
-                                MessageBox.Show("đã lưu tạm thời thông tin người dùng căn hộ");
+                                if (dbAccess.ThemCanHo(GetCanHo)) MessageBox.Show("Thêm thành công");
+                                else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
                                 this.Close();
                             }
                         }

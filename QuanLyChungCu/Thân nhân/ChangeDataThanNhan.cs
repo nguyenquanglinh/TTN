@@ -36,19 +36,16 @@ namespace QuanLyChungCu
             ToolStripItem item = e.ClickedItem;
             if (item.Text == "Thêm thân nhân")
             {
-                var them = new ThemThanNhan();
+                var them = new ThemThanNhan(dbAccess,cMND);
                 them.ShowDialog();
-                if (dbAccess.ThemThanNhan(them.ThanNhan, cMND)) MessageBox.Show("Thêm thành công");
-                else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
+               
             }
             else if (item.Text == "Sửa thân nhân")
             {
                 if (th != null)
                 {
-                    var sua = new SuaThanNhan();
+                    var sua = new SuaThanNhan(dbAccess,th.CMND);
                     sua.ShowDialog();
-                    if (dbAccess.SuaThanNhan(sua.ThanNhan, th.CMND)) MessageBox.Show("Thêm thành công");
-                    else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
                 }
                 else MessageBox.Show("chọn sai đối tượng");
             }

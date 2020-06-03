@@ -43,14 +43,14 @@
             this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
             this.dataGridView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseClick);
             // 
-            // ChangeData
+            // ChangeDataCanHo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 261);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ChangeData";
-            this.Text = "ChangeData";
+            this.Name = "ChangeDataCanHo";
+            this.Text = "Quản lý căn hộ";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

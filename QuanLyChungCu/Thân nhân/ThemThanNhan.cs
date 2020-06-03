@@ -12,9 +12,22 @@ namespace QuanLyChungCu
 {
     public partial class ThemThanNhan : Form
     {
+        private DbAccess dbAccess;
+        private string cMND;
+
         public ThemThanNhan()
         {
             InitializeComponent();
+        }
+
+        public ThemThanNhan(DbAccess dbAccess):this()
+        {
+            this.dbAccess = dbAccess;
+        }
+
+        public ThemThanNhan(DbAccess dbAccess, string cMND) : this(dbAccess)
+        {
+            this.cMND = cMND;
         }
 
         public ThanNhan ThanNhan { get; private set; }
@@ -31,7 +44,8 @@ namespace QuanLyChungCu
                         {
                             string gt = cbNam.Checked == true ? "nam" : "nữ";
                             this.ThanNhan = new ThanNhan(txtTen.Text, txtCMND.Text, txtQuanHe.Text, txtNamSinh.Text, txtQueQuan.Text, txtNgayvao.Text, gt);
-                             MessageBox.Show("đã lưu tạm thời thông tin người dùng căn hộ");
+                            if (dbAccess.ThemThanNhan(ThanNhan, cMND)) MessageBox.Show("Thêm thành công");
+                            else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
                             this.Close();
                             return;
                         }

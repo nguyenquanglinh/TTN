@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(540, 295);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ChangeDataThanNhan";
-            this.Text = "ChanDataThanNhan";
+            this.Text = "Quản lý thân nhân";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

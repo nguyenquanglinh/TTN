@@ -55,20 +55,16 @@ namespace QuanLyChungCu
             ToolStripItem item = e.ClickedItem;
             if (item.Text == "Thêm căn hộ")
             {
-                var them = new ThemCanHo();
+                var them = new ThemCanHo(dbAccess);
                 them.ShowDialog();
-                if (dbAccess.ThemCanHo(them.GetCanHo)) MessageBox.Show("Thêm thành công");
-                else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
-
             }
             else if (item.Text == "Sửa căn hộ")
             {
                 if (s != null)
                 {
-                    var sua = new SuaCanHo(s);
+                    var sua = new SuaCanHo(s,dbAccess);
                     sua.ShowDialog();
-                    if (dbAccess.SuaCanHo(sua.CanHo, s.CMND)) MessageBox.Show("Thêm thành công");
-                    else MessageBox.Show("Không thể thêm thông tin vui lòng kiểm tra lại dữ liệu");
+                    
                 }
                 else
                 {

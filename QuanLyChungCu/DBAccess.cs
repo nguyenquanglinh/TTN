@@ -12,7 +12,7 @@ namespace QuanLyChungCu
     public class DbAccess
     {
         SqlConnection connection = new SqlConnection();
-        string strConnString = "Data Source =" + "DESKTOP-VLM31NH\\SQLEXPRESS ;Database = QuanLyCanHo; Integrated Security=SSPI;";
+        string strConnString = "Data Source =" + "DESKTOP-1DLVE1Q\\SQLEXPRESS;Database = QuanLyCanHo; Integrated Security=SSPI;";
         #region can hộ
         public void createConn()
         {
@@ -33,7 +33,7 @@ namespace QuanLyChungCu
         {
             try
             {
-                string query = "select * from CanHo";
+                string query = "select ID,soCMNDChuHo as'Số CMND',tenChuHo as'Tên chủ hộ',tenPhong as'Tên phòng',tenTang as 'Tên tầng',gioiTinh as 'Giới tính',queQuan as 'Quê quán',ngayVao as 'Ngày vào',namSinh as'Năm sinh' from CanHo";
                 SqlDataAdapter dataadapter = new SqlDataAdapter(query, connection);
                 DataSet ds = new DataSet();
                 dataadapter.Fill(ds, "data");

@@ -200,7 +200,7 @@
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.label1);
             this.Name = "ThemCanHo";
-            this.Text = "ThemCanHo";
+            this.Text = "Thêm căn hộ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

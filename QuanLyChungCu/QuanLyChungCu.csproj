@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CanHo.cs" />
-    <Compile Include="ChangeDataThanNhan.cs">
+    <Compile Include="Căn hộ\CanHo.cs" />
+    <Compile Include="Thân nhân\ChangeDataThanNhan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangeDataThanNhan.Designer.cs">
+    <Compile Include="Thân nhân\ChangeDataThanNhan.Designer.cs">
       <DependentUpon>ChangeDataThanNhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChangeDataCanHo.cs">
+    <Compile Include="Căn hộ\ChangeDataCanHo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangeDataCanHo.Designer.cs">
+    <Compile Include="Căn hộ\ChangeDataCanHo.Designer.cs">
       <DependentUpon>ChangeDataCanHo.cs</DependentUpon>
     </Compile>
     <Compile Include="DangNhap.cs">
@@ -74,36 +74,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuaCanHo.cs">
+    <Compile Include="Căn hộ\SuaCanHo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SuaCanHo.Designer.cs">
+    <Compile Include="Căn hộ\SuaCanHo.Designer.cs">
       <DependentUpon>SuaCanHo.cs</DependentUpon>
     </Compile>
-    <Compile Include="SuaThanNhan.cs">
+    <Compile Include="Thân nhân\SuaThanNhan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SuaThanNhan.Designer.cs">
+    <Compile Include="Thân nhân\SuaThanNhan.Designer.cs">
       <DependentUpon>SuaThanNhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThanNhan.cs" />
-    <Compile Include="ThemCanHo.cs">
+    <Compile Include="Thân nhân\ThanNhan.cs" />
+    <Compile Include="Căn hộ\ThemCanHo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemCanHo.Designer.cs">
+    <Compile Include="Căn hộ\ThemCanHo.Designer.cs">
       <DependentUpon>ThemCanHo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ThemThanNhan.cs">
+    <Compile Include="Thân nhân\ThemThanNhan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemThanNhan.Designer.cs">
+    <Compile Include="Thân nhân\ThemThanNhan.Designer.cs">
       <DependentUpon>ThemThanNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="ChangeDataThanNhan.resx">
+    <EmbeddedResource Include="Thân nhân\ChangeDataThanNhan.resx">
       <DependentUpon>ChangeDataThanNhan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChangeDataCanHo.resx">
+    <EmbeddedResource Include="Căn hộ\ChangeDataCanHo.resx">
       <DependentUpon>ChangeDataCanHo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
@@ -121,16 +121,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SuaCanHo.resx">
+    <EmbeddedResource Include="Căn hộ\SuaCanHo.resx">
       <DependentUpon>SuaCanHo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SuaThanNhan.resx">
+    <EmbeddedResource Include="Thân nhân\SuaThanNhan.resx">
       <DependentUpon>SuaThanNhan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemCanHo.resx">
+    <EmbeddedResource Include="Căn hộ\ThemCanHo.resx">
       <DependentUpon>ThemCanHo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ThemThanNhan.resx">
+    <EmbeddedResource Include="Thân nhân\ThemThanNhan.resx">
       <DependentUpon>ThemThanNhan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
