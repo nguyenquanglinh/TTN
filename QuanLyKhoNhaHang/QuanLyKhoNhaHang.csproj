@@ -33,8 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +57,96 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="model\BienBanThanhLy.cs" />
+    <Compile Include="model\ChiTietBBTL.cs" />
+    <Compile Include="model\ChiTietHDN.cs" />
+    <Compile Include="model\ChiTietPDNL.cs" />
+    <Compile Include="model\ChiTietPTK.cs" />
+    <Compile Include="model\HoaDonNhapNL.cs" />
+    <Compile Include="model\MyDBcontext.cs" />
+    <Compile Include="model\NguyenLieu.cs" />
+    <Compile Include="model\NhaCungCap.cs" />
+    <Compile Include="model\NhanVien.cs" />
+    <Compile Include="model\PhieuDatNL.cs" />
+    <Compile Include="model\PhieuThongKe.cs" />
+    <Compile Include="model\sysdiagram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.Designer.cs">
+      <DependentUpon>FormQLHoaDonNhapNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNguyenLieu\FormQLNguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNguyenLieu\FormQLNguyenLieu.Designer.cs">
+      <DependentUpon>FormQLNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaCungCap\FormQLNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaCungCap\FormQLNCC.Designer.cs">
+      <DependentUpon>FormQLNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhaCungCap\FormTimKiemNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhaCungCap\FormTimKiemNCC.Designer.cs">
+      <DependentUpon>FormTimKiemNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVien\FormQLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVien\FormQLNhanVien.Designer.cs">
+      <DependentUpon>FormQLNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVien\FormTimKiemNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVien\FormTimKiemNV.Designer.cs">
+      <DependentUpon>FormTimKiemNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.Designer.cs">
+      <DependentUpon>FormQLPhieuDatNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.Designer.cs">
+      <DependentUpon>FormSuaPhieuDatNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.Designer.cs">
+      <DependentUpon>FormThemPhieuDatNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.Designer.cs">
+      <DependentUpon>FormXoaPhieuDatNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuThongKe\FormQLPhieuThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuThongKe\FormQLPhieuThongKe.Designer.cs">
+      <DependentUpon>FormQLPhieuThongKe.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +156,40 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.resx">
+      <DependentUpon>FormQLHoaDonNhapNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNguyenLieu\FormQLNguyenLieu.resx">
+      <DependentUpon>FormQLNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaCungCap\FormQLNCC.resx">
+      <DependentUpon>FormQLNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhaCungCap\FormTimKiemNCC.resx">
+      <DependentUpon>FormTimKiemNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVien\FormQLNhanVien.resx">
+      <DependentUpon>FormQLNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVien\FormTimKiemNV.resx">
+      <DependentUpon>FormTimKiemNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.resx">
+      <DependentUpon>FormQLPhieuDatNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.resx">
+      <DependentUpon>FormSuaPhieuDatNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.resx">
+      <DependentUpon>FormThemPhieuDatNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.resx">
+      <DependentUpon>FormXoaPhieuDatNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuThongKe\FormQLPhieuThongKe.resx">
+      <DependentUpon>FormQLPhieuThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +202,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="QLBienBanThanhLy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
