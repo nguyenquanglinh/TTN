@@ -57,9 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormMain.cs" />
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
@@ -78,69 +76,47 @@
     <Compile Include="model\sysdiagram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.cs" />
     <Compile Include="QLHoaDonNhapNguyenLieu\FormQLHoaDonNhapNguyenLieu.Designer.cs">
       <DependentUpon>FormQLHoaDonNhapNguyenLieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNguyenLieu\FormQLNguyenLieu.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLNguyenLieu\FormQLNguyenLieu.cs" />
     <Compile Include="QLNguyenLieu\FormQLNguyenLieu.Designer.cs">
       <DependentUpon>FormQLNguyenLieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNhaCungCap\FormQLNCC.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLNhaCungCap\FormQLNCC.cs" />
     <Compile Include="QLNhaCungCap\FormQLNCC.Designer.cs">
       <DependentUpon>FormQLNCC.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNhaCungCap\FormTimKiemNCC.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLNhaCungCap\FormTimKiemNCC.cs" />
     <Compile Include="QLNhaCungCap\FormTimKiemNCC.Designer.cs">
       <DependentUpon>FormTimKiemNCC.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNhanVien\FormQLNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLNhanVien\FormQLNhanVien.cs" />
     <Compile Include="QLNhanVien\FormQLNhanVien.Designer.cs">
       <DependentUpon>FormQLNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLNhanVien\FormTimKiemNV.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLNhanVien\FormTimKiemNV.cs" />
     <Compile Include="QLNhanVien\FormTimKiemNV.Designer.cs">
       <DependentUpon>FormTimKiemNV.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.cs" />
     <Compile Include="QLPhieuDatNguyenLieu\FormQLPhieuDatNL.Designer.cs">
       <DependentUpon>FormQLPhieuDatNL.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.cs" />
     <Compile Include="QLPhieuDatNguyenLieu\FormSuaPhieuDatNL.Designer.cs">
       <DependentUpon>FormSuaPhieuDatNL.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.cs" />
     <Compile Include="QLPhieuDatNguyenLieu\FormThemPhieuDatNL.Designer.cs">
       <DependentUpon>FormThemPhieuDatNL.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.cs" />
     <Compile Include="QLPhieuDatNguyenLieu\FormXoaPhieuDatNL.Designer.cs">
       <DependentUpon>FormXoaPhieuDatNL.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLPhieuThongKe\FormQLPhieuThongKe.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="QLPhieuThongKe\FormQLPhieuThongKe.cs" />
     <Compile Include="QLPhieuThongKe\FormQLPhieuThongKe.Designer.cs">
       <DependentUpon>FormQLPhieuThongKe.cs</DependentUpon>
     </Compile>
