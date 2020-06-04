@@ -87,3 +87,6 @@ C:\Users\thang\Source\Repos\TTN2\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapH
 C:\Users\thang\Source\Repos\TTN2\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemHangHoa.resources
 C:\Users\thang\Source\Repos\TTN2\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.ThemLoaiHH.resources
 C:\Users\thang\Source\Repos\TTN2\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.csproj.GenerateResource.Cache
+D:\GitHub\TTN\QuanLyBanHangTapHoa\bin\Debug\QuanLyBanHangTapHoa.exe.config
+D:\GitHub\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.exe
+D:\GitHub\TTN\QuanLyBanHangTapHoa\obj\Debug\QuanLyBanHangTapHoa.pdb
