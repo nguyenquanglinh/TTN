@@ -77,3 +77,6 @@ C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.SuaPhieuNhap.resou
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.ThemPhieuNhap.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.ThongKe.FormThongKe.resources
 C:\Users\thang\Source\Repos\TTN\QuanLyKho\obj\Debug\QuanLyKho.XoaPhieuNhap.resources
+D:\GitHub\TTN\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\GitHub\TTN\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\GitHub\TTN\QuanLyKho\obj\Debug\QuanLyKho.pdb
