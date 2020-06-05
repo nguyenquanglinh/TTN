@@ -12,7 +12,7 @@ namespace QuanLyChungCu
     public class DbAccess
     {
         SqlConnection connection = new SqlConnection();
-        string strConnString = "Data Source =" + "DESKTOP-1DLVE1Q\\SQLEXPRESS;Database = QuanLyCanHo; Integrated Security=SSPI;";
+        string strConnString = "Data Source =" + "DESKTOP-81VHF3A\\SQLEXPRESS;Database = QuanLyCanHo; Integrated Security=true;";
         #region can hộ
         public void createConn()
         {
