@@ -1,4 +1,13 @@
-﻿create database KhoNhaHang
+﻿use master
+go
+drop database KhoNhaHang
+go
+use master
+go
+create database KhoNhaHang
+go
+
+create database KhoNhaHang
 go
 use KhoNhaHang
 go
